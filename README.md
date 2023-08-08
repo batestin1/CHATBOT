@@ -16,5 +16,5 @@ See below for a list of them and their descriptions. </p>
 
 Name	                                                                        |   Description                                                             |
 ------------------------------------------------------------------------------|:-------------------------------------------------------------------------:|
-<a href="https://github.com/batestin1/POKECHATBOT">  POKECHATBOT   				    | <p> This is a chatbot to show and reveal informations about Pokemons </p> |
-<a href="https://github.com/batestin1/CINEBOT">  CINEBOT  				            | <p> This is a chatbot to show and reveal informations about Movies </p>   |
+<a href="https://github.com/batestin1/CHATBOT/tree/main/POKECHATBOT">  POKECHATBOT   				    | <p> This is a chatbot to show and reveal informations about Pokemons </p> |
+<a href="https://github.com/batestin1/CHATBOT/tree/main/CINEBOT">  CINEBOT  				            | <p> This is a chatbot to show and reveal informations about Movies </p>   |
