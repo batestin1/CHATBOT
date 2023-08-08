@@ -1,0 +1,56 @@
+aboutme,yourself
+aboutme,about
+aboutme,features
+aboutme,you
+aboutme,name
+aboutme,aboutme,CINEBOT,how are you,are you,what are you,IA,Artificial intelligence,robot,what kind of assistent are you,what you can do,assistent virtual,virtual,assistent,artificial,cine bot,bot
+aboutme,your
+apiMOvie,movie,/[a-zA-Z0-9\s]+/
+clear,clear,/(?i)\b(clear|limpar tela)\b/
+getStart,restart
+getStart,telegram,/^/start/
+getStart,start
+getStart,again
+greeting,greeting,hi,hello,Hey,And there,Greetings,How are you?,All good?,What's new?,"Hey, how can I help?","Hey, how can I help"
+movieGet,movie,film,title,actor,actors,actress,screenwriter,writer,on screen
+movieGet,I wanna know about
+no,Never
+no,Impossible Not
+no,By no means
+no,Certainly not
+no,Impossible
+no,Under no circumstances
+no,Not by any stretch
+no,Not in the slightest
+no,No chance
+no,No dice
+no,Decline
+no,Refusal
+no,Rejection
+no,Not a chance
+no,Denial
+no,Nay
+no,Negative
+no,No
+no,No way
+no,Absolutely not
+no,nothing
+question,help,help,question,features,services,tools,Applications,Interrogations,?,Queries,Problems
+yes,Positively
+yes,Definitely
+yes,Yup
+yes,Aye
+yes,Roger
+yes,OK
+yes,Yeah
+yes,Okey-dokey
+yes,Affirmatively
+yes,Agreed
+yes,Without a doubt
+yes,yes
+yes,sure
+yes,Affirmative
+yes,Indeed
+yes,Absolutely
+yes,Certainly
+yes,Of course

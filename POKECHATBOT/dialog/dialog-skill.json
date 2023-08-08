@@ -1,0 +1,885 @@
+{
+  "name": "pokemon",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 4,
+    "entities": 5,
+    "dialog_nodes": 21
+  },
+  "status": "Available",
+  "created": "2023-08-02T21:28:30.452Z",
+  "updated": "2023-08-02T21:28:30.452Z",
+  "language": "pt-br",
+  "skill_id": "cf1afa27-a5e1-44b3-b978-251b92a642c5",
+  "snapshot": "2",
+  "workspace": {
+    "created": "2023-08-02T21:28:30.452Z",
+    "intents": [
+      {
+        "intent": "duvida",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "examples": [
+          {
+            "text": "deixa eu perguntar algo",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "estou com duvida",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "estou precisando de ajuda",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "eu quero perguntar outra coisa",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "me ajuda nessa duvida",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "quero resolver uma duvida",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "to com duvida",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "infoPokemon",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "examples": [
+          {
+            "text": "me mostre o pokemon",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "q tipo de pokemon eh",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "qual pokemon eh",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "qual pokemon faz",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "que pokemon é esse",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "quero saber q pokemon eh esse",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "nao",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "examples": [
+          {
+            "text": "claro que nao",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "definitivamente nao",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "de jeito nenhum",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "nao",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "Não",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "negativo",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "nem pensar",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "no",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "non",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "sim",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "examples": [
+          {
+            "text": "afirmativo",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "com certeza",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "pode sim",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "pode ter certeza",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "si",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "sim",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          },
+          {
+            "text": "yes",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2023-08-02T21:28:30.452Z",
+    "entities": [
+      {
+        "entity": "duvida",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "duvida",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z",
+            "synonyms": [
+              "ajuda",
+              "algo mais",
+              "algo q posso fazer",
+              "duvida",
+              "dúvida",
+              "estou com uma duvida",
+              "help",
+              "no que posso ajudar",
+              "pergunta",
+              "questao",
+              "socorro"
+            ]
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "nao",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "nao",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z",
+            "synonyms": [
+              "de jeito nenhum",
+              "nao",
+              "NÃO",
+              "negativo",
+              "nem a pau",
+              "no",
+              "non"
+            ]
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "pokemonINFO",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "pokemon",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z",
+            "synonyms": [
+              "informacao sobre pokemon",
+              "nome do pokemon",
+              "poder do pokemon",
+              "pokedesk q pokemon eh este",
+              "q poke eh este",
+              "quais pokemons existem",
+              "qual pokemon",
+              "que pokemon é esse",
+              "que pokemon eh esse",
+              "quero pokes",
+              "quero saber de pokemon",
+              "quero saber sobre pokemon",
+              "que tipo de pokemon eh",
+              "tipo de pokemon"
+            ]
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "pokemonTipo",
+        "values": [
+          {
+            "type": "patterns",
+            "value": "pokemon",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z",
+            "patterns": [
+              "^(?:[1-9][0-9]?|500)$"
+            ]
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sim",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "sim",
+            "created": "2023-08-02T21:28:32.508Z",
+            "updated": "2023-08-02T21:28:32.508Z",
+            "synonyms": [
+              "afirmativo",
+              "certeza",
+              "com certeza",
+              "pode, claro",
+              "pode é claro",
+              "s",
+              "si",
+              "SIM",
+              "sin",
+              "yes"
+            ]
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "pt-br",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 4,
+          "entities": 5,
+          "dialog_nodes": 21
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "webhooks": [
+      {
+        "url": "https://us-south.functions.appdomain.cloud/api/v1/web/c5243316-70b8-4658-91fd-b6c70ce8c3c6/default/ApiPoke.json",
+        "name": "main_webhook",
+        "headers": []
+      }
+    ],
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Bem-vindo",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Bem vindo ao ChatPokemon. Seu assistente online de pokemon!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_8_1691006883458"
+        },
+        "conditions": "welcome",
+        "dialog_node": "Bem-vindo"
+      },
+      {
+        "type": "standard",
+        "title": "Em outros casos",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Eu não entendi. Você pode tentar reformular a frase."
+                },
+                {
+                  "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+                },
+                {
+                  "text": "Eu não entendi o sentido."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "anything_else",
+        "dialog_node": "Em outros casos",
+        "previous_sibling": "node_8_1691006883458",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Digite um número para obter informações sobre o pokémon desejado"
+                }
+              ],
+              "response_type": "text"
+            }
+          ]
+        },
+        "parent": "slot_10_1691008634491",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "event_name": "focus",
+        "dialog_node": "handler_10_1691008634507",
+        "previous_sibling": "handler_1_1691008634506"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_3_1691005467195",
+        "context": {
+          "sim": "$sim"
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "$sim",
+        "event_name": "input",
+        "dialog_node": "handler_1_1691005467211"
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "title": "Gostaria de saber alguma informação sobre algum pokémon?",
+              "options": [
+                {
+                  "label": "SIM",
+                  "value": {
+                    "input": {
+                      "text": "sim"
+                    }
+                  }
+                },
+                {
+                  "label": "NÃO",
+                  "value": {
+                    "input": {
+                      "text": "nao"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ]
+        },
+        "parent": "node_8_1691006883458",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "event_name": "focus",
+        "dialog_node": "handler_1_1691007132917",
+        "previous_sibling": "node_2_1691007634911"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_10_1691008634491",
+        "context": {
+          "pokemonTipo": "@pokemonTipo"
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "@pokemonTipo",
+        "event_name": "input",
+        "dialog_node": "handler_1_1691008634506"
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": ""
+                }
+              ],
+              "response_type": "text"
+            }
+          ]
+        },
+        "parent": "slot_5_1691005508976",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "event_name": "focus",
+        "dialog_node": "handler_4_1691005508978",
+        "previous_sibling": "handler_8_1691005508978"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_5_1691005508976",
+        "context": {
+          "nao": "$nao"
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "$nao",
+        "event_name": "input",
+        "dialog_node": "handler_8_1691005508978"
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": ""
+                }
+              ],
+              "response_type": "text"
+            }
+          ]
+        },
+        "parent": "slot_3_1691005467195",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "event_name": "focus",
+        "dialog_node": "handler_9_1691005467211",
+        "previous_sibling": "handler_1_1691005467211"
+      },
+      {
+        "type": "frame",
+        "title": "revelaPokemon",
+        "parent": "node_9_1691007605808",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {
+              "pokemon": "@pokemonTipo.literal"
+            },
+            "result_variable": "data"
+          }
+        ],
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_3_1691009974130"
+        },
+        "conditions": "true",
+        "dialog_node": "node_1_1691008509492"
+      },
+      {
+        "type": "standard",
+        "title": "sim",
+        "output": {
+          "generic": []
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_9_1691007605808"
+        },
+        "conditions": "@sim && #sim",
+        "dialog_node": "node_1_1691011159553",
+        "previous_sibling": "node_9_1691011206934"
+      },
+      {
+        "type": "standard",
+        "title": "nao",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Muito bem, se não quer saber sobre pokémon, no que mais posso ajudar?"
+                },
+                {
+                  "text": "Entendi. Se não deseja saber sobre pokémons, como posso ajudar?"
+                },
+                {
+                  "text": "Compreendi. Então, como posso ajudar?"
+                },
+                {
+                  "text": "Certo, posso ajudar em outra coisa?"
+                },
+                {
+                  "text": " O que deseja saber então?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691006883458",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "true",
+        "dialog_node": "node_2_1691007634911",
+        "previous_sibling": "node_9_1691007605808"
+      },
+      {
+        "type": "standard",
+        "title": "Repet",
+        "output": {
+          "generic": [
+            {
+              "time": 1,
+              "typing": true,
+              "response_type": "pause"
+            },
+            {
+              "values": [
+                {
+                  "text": "Há algo mais que posso ajudar?"
+                },
+                {
+                  "text": "Posso ajudar em algo há mais?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "#duvida && @duvida",
+        "dialog_node": "node_3_1691009974130",
+        "previous_sibling": "node_1_1691011159553"
+      },
+      {
+        "type": "standard",
+        "title": "Pokemon",
+        "output": {
+          "generic": [
+            {
+              "title": "Gostaria de saber sobre algum pokémon especifico?",
+              "options": [
+                {
+                  "label": "SIM",
+                  "value": {
+                    "input": {
+                      "text": "sim_value"
+                    }
+                  }
+                },
+                {
+                  "label": "NÃO",
+                  "value": {
+                    "input": {
+                      "text": "nao_value"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ]
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "#infoPokemon && @pokemonINFO",
+        "dialog_node": "node_8_1691006883458",
+        "previous_sibling": "node_3_1691009974130"
+      },
+      {
+        "type": "standard",
+        "title": "sim",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Maravilha"
+                },
+                {
+                  "text": "Muito bom!"
+                },
+                {
+                  "text": "Adorei"
+                },
+                {
+                  "text": "Combinado"
+                },
+                {
+                  "text": "Sensacional"
+                },
+                {
+                  "text": "Muito bem"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            },
+            {
+              "time": 2,
+              "typing": true,
+              "response_type": "pause"
+            },
+            {
+              "values": [
+                {
+                  "text": "Digite um número do pokémon que deseja saber:"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691006883458",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "true",
+        "dialog_node": "node_9_1691007605808"
+      },
+      {
+        "type": "standard",
+        "title": "nao",
+        "output": {
+          "generic": []
+        },
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_2_1691007634911"
+        },
+        "conditions": "#nao && @nao",
+        "dialog_node": "node_9_1691011206934",
+        "previous_sibling": "Bem-vindo"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Você desejou informações sobre o pokémon $data.Nome"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "time": 2,
+              "typing": true,
+              "response_type": "pause"
+            },
+            {
+              "title": "",
+              "source": "$data.Imagem",
+              "response_type": "image"
+            },
+            {
+              "values": [
+                {
+                  "text": "Aqui está o que sei sobre $data.Nome"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [
+                {
+                  "text": "Tipo: $data.Tipo"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [
+                {
+                  "text": "Level: $data.Level"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            },
+            {
+              "values": [
+                {
+                  "text": "Golpes famosos: $data.Golpes"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1691008509492",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "$data",
+        "dialog_node": "response_2_1691008634116",
+        "previous_sibling": "slot_10_1691008634491"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Não encontrei"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1691008509492",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "conditions": "anything_else",
+        "dialog_node": "response_2_1691008635731",
+        "previous_sibling": "response_2_1691008634116"
+      },
+      {
+        "type": "slot",
+        "parent": "node_1_1691008509492",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "variable": "$pokemonTipo",
+        "dialog_node": "slot_10_1691008634491"
+      },
+      {
+        "type": "slot",
+        "parent": "Bem-vindo",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "variable": "sim",
+        "dialog_node": "slot_3_1691005467195"
+      },
+      {
+        "type": "slot",
+        "parent": "Bem-vindo",
+        "created": "2023-08-02T21:28:32.508Z",
+        "updated": "2023-08-02T21:28:32.508Z",
+        "variable": "nao",
+        "dialog_node": "slot_5_1691005508976",
+        "previous_sibling": "slot_3_1691005467195"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "",
+  "assistant_id": "6d01b712-b5e3-41da-9d79-ad93b62c588a",
+  "dialog_settings": {
+    "source_assistant": "3071c366-9936-4f69-a03c-0c91de0ed26b"
+  },
+  "assistant_references": [
+    {
+      "name": "pokemon",
+      "assistant_id": "3071c366-9936-4f69-a03c-0c91de0ed26b",
+      "skill_reference": "main skill"
+    }
+  ]
+}

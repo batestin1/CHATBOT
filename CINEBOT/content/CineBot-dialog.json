@@ -1,0 +1,1948 @@
+{
+  "intents": [
+    {
+      "intent": "aboutme",
+      "examples": [
+        {
+          "text": "Do you have a name?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How can you assist me?"
+        },
+        {
+          "text": "How should I address you?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                21,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me about yourself.",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are your capabilities?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                9,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What can you help me with?"
+        },
+        {
+          "text": "What can you tell me about you?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                21,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What features do you have?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is your purpose?"
+        },
+        {
+          "text": "What's your name?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What tasks can you perform?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why were you created?",
+          "mentions": [
+            {
+              "entity": "aboutme",
+              "location": [
+                9,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "About the cinebot"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Afternoon"
+        },
+        {
+          "text": "Are you well?"
+        },
+        {
+          "text": "Evening"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hey, how can I help?"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How are you doing?"
+        },
+        {
+          "text": "How's it going?"
+        }
+      ],
+      "description": "Greetings dialog"
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "Can you elaborate more on this concept?"
+        },
+        {
+          "text": "Can you explain something to me?"
+        },
+        {
+          "text": "Can you help me with something?"
+        },
+        {
+          "text": "Can you list your features?"
+        },
+        {
+          "text": "Can you provide me with more information?"
+        },
+        {
+          "text": "doubt."
+        },
+        {
+          "text": "How can I approach this issue?"
+        },
+        {
+          "text": "How can I use your features?"
+        },
+        {
+          "text": "I can ask a question?"
+        },
+        {
+          "text": "I don't know where to start, can you help me?"
+        },
+        {
+          "text": "I don't understand well, can you clarify?"
+        },
+        {
+          "text": "I have a doubt."
+        },
+        {
+          "text": "I have a question."
+        },
+        {
+          "text": "I'm a little lost, can you guide me?"
+        },
+        {
+          "text": "I'm curious about something."
+        },
+        {
+          "text": "I'm interested in learning about it."
+        },
+        {
+          "text": "I need a litlle help"
+        },
+        {
+          "text": "I need clarification on something."
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "I wanna make a question"
+        },
+        {
+          "text": "I would like some guidelines."
+        },
+        {
+          "text": "I would like to know more about a topic."
+        },
+        {
+          "text": "What can you tell me about it?"
+        },
+        {
+          "text": "What features do you have?"
+        }
+      ],
+      "description": "help questions"
+    },
+    {
+      "intent": "movie",
+      "examples": [
+        {
+          "text": "film"
+        },
+        {
+          "text": "filmmaker"
+        },
+        {
+          "text": "I wanna know about"
+        },
+        {
+          "text": "I wanna know somenthing about Robert De Niro"
+        },
+        {
+          "text": "I wanna talk about a movie"
+        },
+        {
+          "text": "movie"
+        },
+        {
+          "text": "Tell me about"
+        },
+        {
+          "text": "Tell me about Al Pacino"
+        },
+        {
+          "text": "Tell me about the plot of"
+        },
+        {
+          "text": "Tell me about the plot of movie"
+        },
+        {
+          "text": "Tell me about the plot of Sincaro"
+        },
+        {
+          "text": "Tell me about the plot of Titanic"
+        },
+        {
+          "text": "Tell me about the plot of Vulcano"
+        },
+        {
+          "text": "Tell me more about the director of a movie call"
+        },
+        {
+          "text": "Tell me more about the director of Avatar"
+        },
+        {
+          "text": "Tell me more about the director of Batman"
+        },
+        {
+          "text": "Tell me more about the director of Braveheart"
+        },
+        {
+          "text": "Tell me more about the director of Edward"
+        },
+        {
+          "text": "Tell me more about the director of film call"
+        },
+        {
+          "text": "Tell me more about the director of Godfather"
+        },
+        {
+          "text": "Tell me more about the director of Irland"
+        },
+        {
+          "text": "Tell me more about the director of Iron Man"
+        },
+        {
+          "text": "Tell me more about the director of Titanic"
+        },
+        {
+          "text": "What are the details of the movie ?"
+        },
+        {
+          "text": "What are the details of the movie batman?"
+        },
+        {
+          "text": "What are the details of the movie Harry Potter?"
+        },
+        {
+          "text": "What are the details of the movie Lord of the Ring?"
+        },
+        {
+          "text": "What are the details of the movie Parasite?"
+        },
+        {
+          "text": "What are the details of the movie spiderman?"
+        },
+        {
+          "text": "What are the details of the movie Superman?"
+        },
+        {
+          "text": "What are the details of the movie Titanic?"
+        },
+        {
+          "text": "Who are the main actors in"
+        },
+        {
+          "text": "Who are the main actors in Batman"
+        },
+        {
+          "text": "Who are the main actors in film"
+        },
+        {
+          "text": "Who are the main actors in Iron Man"
+        },
+        {
+          "text": "Who are the main actors in Lord of Flye"
+        },
+        {
+          "text": "Who are the main actors in movie"
+        },
+        {
+          "text": "Who are the main actors in SpiderMan"
+        },
+        {
+          "text": "Who are the main actors in Superman"
+        },
+        {
+          "text": "Who are the main actors in Thor"
+        },
+        {
+          "text": "Who are the main actors in Titanic"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "Absolutely not, I cannot help with that request."
+        },
+        {
+          "text": "By no means"
+        },
+        {
+          "text": "By no means, that's out of the question."
+        },
+        {
+          "text": "Cannot"
+        },
+        {
+          "text": "Certainly not"
+        },
+        {
+          "text": "Don't"
+        },
+        {
+          "text": "Don't care"
+        },
+        {
+          "text": "Don't wanna"
+        },
+        {
+          "text": "I don't care"
+        },
+        {
+          "text": "I don't wanna"
+        },
+        {
+          "text": "Negative, that's not possible"
+        },
+        {
+          "text": "not"
+        },
+        {
+          "text": "Not a chance, that's not an option."
+        },
+        {
+          "text": "Not at all, I can't do that."
+        },
+        {
+          "text": "nothing"
+        },
+        {
+          "text": "there's nothing you can do for me"
+        },
+        {
+          "text": "Under no circumstances"
+        },
+        {
+          "text": "Wanna not"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "start",
+      "examples": [
+        {
+          "text": "again",
+          "mentions": [
+            {
+              "entity": "getStart",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "restart",
+          "mentions": [
+            {
+              "entity": "getStart",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "start",
+          "mentions": [
+            {
+              "entity": "getStart",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": ":+1:"
+        },
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "Affirmative boy"
+        },
+        {
+          "text": "Affirmative dude"
+        },
+        {
+          "text": "Affirmative girl"
+        },
+        {
+          "text": "Affirmatively"
+        },
+        {
+          "text": "Agreed"
+        },
+        {
+          "text": "Aye"
+        },
+        {
+          "text": "Certainly"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Definitely"
+        },
+        {
+          "text": "Indeed"
+        },
+        {
+          "text": "Indubitably"
+        },
+        {
+          "text": "maybe"
+        },
+        {
+          "text": "Of course"
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "Okey-dokey"
+        },
+        {
+          "text": "Positively"
+        },
+        {
+          "text": "Right"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "Without a doubt"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "yes dude"
+        },
+        {
+          "text": "Yes. You can"
+        },
+        {
+          "text": "You can"
+        },
+        {
+          "text": "Yup"
+        }
+      ],
+      "description": "yes"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "aboutme",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "about",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "aboutme",
+          "synonyms": [
+            "are you",
+            "artificial",
+            "Artificial intelligence",
+            "assistent",
+            "assistent virtual",
+            "bot",
+            "cine bot",
+            "CINEBOT",
+            "how are you",
+            "IA",
+            "robot",
+            "virtual",
+            "what are you",
+            "what kind of assistent are you",
+            "what you can do"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "features",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "your",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yourself",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "apiMOvie",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "movie",
+          "patterns": [
+            "[a-zA-Z0-9\\s]+"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "clear",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "clear",
+          "patterns": [
+            "(?i)\\b(clear|limpar tela)\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "getStart",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "again",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "restart",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "start",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "telegram",
+          "patterns": [
+            "^/start"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "greeting",
+          "synonyms": [
+            "All good?",
+            "And there",
+            "Greetings",
+            "hello",
+            "Hey",
+            "Hey, how can I help",
+            "Hey, how can I help?",
+            "hi",
+            "How are you?",
+            "What's new?"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "movieGet",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I wanna know about",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "movie",
+          "synonyms": [
+            "actor",
+            "actors",
+            "actress",
+            "film",
+            "on screen",
+            "screenwriter",
+            "title",
+            "writer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Absolutely not",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "By no means",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Certainly not",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Decline",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denial",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impossible",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Impossible Not",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Negative",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Never",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No chance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No dice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Not a chance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Not by any stretch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nothing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Not in the slightest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No way",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Refusal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rejection",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Under no circumstances",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "question",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "help",
+          "synonyms": [
+            "?",
+            "Applications",
+            "features",
+            "help",
+            "Interrogations",
+            "Problems",
+            "Queries",
+            "question",
+            "services",
+            "tools"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Absolutely",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Affirmative",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Affirmatively",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Agreed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aye",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Certainly",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Definitely",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Indeed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Of course",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OK",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Okey-dokey",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Positively",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Roger",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Without a doubt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yeah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yup",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/c5243316-70b8-4658-91fd-b6c70ce8c3c6/default/get_movie.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. Do you wanna talk about movie?"
+              },
+              {
+                "text": " I'm not understanding. Do you wanna talk about movie?"
+              },
+              {
+                "text": "I didn't get your meaning. Do you wanna talk about movie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1691504407375",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_8_1691501446150",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1691501446167",
+      "previous_sibling": "handler_1_1691501446167"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1691510913629",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_10_1691510913629"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1691510913629",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1691510913629",
+      "previous_sibling": "handler_10_1691510913629"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1691414712278",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1691501445766"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1691501446150",
+      "context": {
+        "movie": "@movieGet"
+      },
+      "conditions": "@movieGet",
+      "event_name": "input",
+      "dialog_node": "handler_1_1691501446167"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1691510965966",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_17_1691510965966"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_16_1691510965966",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1691510965966",
+      "previous_sibling": "handler_17_1691510965966"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1691510993769",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_24_1691510993769"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_23_1691510993769",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1691510993769",
+      "previous_sibling": "handler_24_1691510993769"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_30_1691511020717",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_31_1691511020717"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1691510870484",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_3_1691510870484"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_30_1691511020717",
+      "event_name": "focus",
+      "dialog_node": "handler_32_1691511020717",
+      "previous_sibling": "handler_31_1691511020717"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1691424325297",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1691424902512",
+      "previous_sibling": "handler_5_1691425774033"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1691502921452",
+      "context": {
+        "movie": "@apiMOvie"
+      },
+      "conditions": "@apiMOvie",
+      "event_name": "input",
+      "dialog_node": "handler_4_1691502921475"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1691510870484",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1691510870484",
+      "previous_sibling": "handler_3_1691510870484"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_3_1691424325297",
+      "conditions": "@sys-time",
+      "event_name": "generic",
+      "dialog_node": "handler_5_1691425774033"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1691501446150",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "event_name": "filled",
+      "dialog_node": "handler_7_1691502283534",
+      "previous_sibling": "handler_10_1691501446167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1691502921452",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1691502921475",
+      "previous_sibling": "handler_4_1691502921475"
+    },
+    {
+      "type": "frame",
+      "title": "MovieGet",
+      "parent": "node_7_1691414712278",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691510870482"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_10_1691500569620",
+      "previous_sibling": "slot_8_1691501446150"
+    },
+    {
+      "type": "standard",
+      "title": "AboutMe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm CINEBOT, your virtual movie assistant."
+              },
+              {
+                "text": "My name is CINEBOT, I'm an Artificial Intelligence developed to help you get information about movies."
+              },
+              {
+                "text": "I'm AI CINEBOT, your virtual movie assistant!"
+              },
+              {
+                "text": "I'm an AI called CINEBOT. I have knowledge of more than a thousand films."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1691497766059"
+      },
+      "conditions": "@aboutme || #aboutme",
+      "dialog_node": "node_1_1691497238222",
+      "previous_sibling": "node_5_1691418636441"
+    },
+    {
+      "type": "frame",
+      "title": "Actors",
+      "output": {},
+      "parent": "node_10_1691500569620",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1691510913626"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_1_1691510870482"
+    },
+    {
+      "type": "frame",
+      "title": "Writer",
+      "output": {},
+      "parent": "node_8_1691510913626",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_22_1691510993767"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_15_1691510965964"
+    },
+    {
+      "type": "standard",
+      "title": "repet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did you like it? Would you like another movie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1691504407375",
+      "previous_sibling": "node_7_1691414712278"
+    },
+    {
+      "type": "frame",
+      "title": "Resume",
+      "output": {},
+      "parent": "node_15_1691510965964",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1691511020715"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_22_1691510993767"
+    },
+    {
+      "type": "frame",
+      "title": "Poster",
+      "output": {},
+      "parent": "node_22_1691510993767",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1691504407375"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_29_1691511020715"
+    },
+    {
+      "type": "frame",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi..."
+              },
+              {
+                "text": "Hello..."
+              },
+              {
+                "text": "What's up?"
+              },
+              {
+                "text": "Hey..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691497238222"
+      },
+      "conditions": "#greetings || @greeting || @getStart || @clear",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1691424325297",
+      "previous_sibling": "node_8_1691499541251"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1691414712278"
+      },
+      "conditions": "@yes || #yes",
+      "dialog_node": "node_3_1691499008471",
+      "previous_sibling": "node_5_1691497766059"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1691424325297"
+      },
+      "conditions": "welcome || @getStart && #start",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1691418636441"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can help with something?"
+              },
+              {
+                "text": "How can I be of help?"
+              },
+              {
+                "text": "What can I do for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "@question || #help",
+      "dialog_node": "node_5_1691497766059",
+      "previous_sibling": "node_1_1691497238222"
+    },
+    {
+      "type": "standard",
+      "title": "movie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's talk about movie. Enter the title of a movie you want to know about"
+              },
+              {
+                "text": "Let's talk about movies. Which movie do you want to know about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "@movieGet && true || @yes || #movie",
+      "dialog_node": "node_7_1691414712278",
+      "previous_sibling": "node_3_1691424325297"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Thanks."
+              },
+              {
+                "text": "All good. Thanks"
+              },
+              {
+                "text": "Thanks for your visit. Check back often"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1691499541251"
+      },
+      "conditions": "#no || @no",
+      "dialog_node": "node_7_1691499039663",
+      "previous_sibling": "node_3_1691499008471"
+    },
+    {
+      "type": "standard",
+      "title": "Finish",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To restart this bot, please type 'restart'"
+              },
+              {
+                "text": "To restart this bot, please type 'again'"
+              },
+              {
+                "text": "To restart this bot, please type 'start'"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#no",
+      "dialog_node": "node_8_1691499541251",
+      "previous_sibling": "node_7_1691499039663"
+    },
+    {
+      "type": "frame",
+      "title": "Director",
+      "output": {},
+      "parent": "node_1_1691510870482",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie": "@apiMOvie.literal"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_15_1691510965964"
+      },
+      "conditions": "@apiMOvie",
+      "dialog_node": "node_8_1691510913626"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Director: $data.Director"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1691510913626",
+      "conditions": "$data",
+      "dialog_node": "response_12_1691510913629",
+      "previous_sibling": "slot_9_1691510913629"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_8_1691510913626",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_13_1691510913629",
+      "previous_sibling": "response_12_1691510913629"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_8_1691510913626",
+      "conditions": "$data",
+      "dialog_node": "response_14_1691510913629",
+      "previous_sibling": "response_13_1691510913629"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Writer: $data.Writer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1691510965964",
+      "conditions": "$data",
+      "dialog_node": "response_19_1691510965966",
+      "previous_sibling": "slot_16_1691510965966"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_15_1691510965964",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_20_1691510965966",
+      "previous_sibling": "response_19_1691510965966"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_15_1691510965964",
+      "conditions": "$data",
+      "dialog_node": "response_21_1691510965966",
+      "previous_sibling": "response_20_1691510965966"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Resume: $data.Resume"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1691510993767",
+      "conditions": "$data",
+      "dialog_node": "response_26_1691510993769",
+      "previous_sibling": "slot_23_1691510993769"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_22_1691510993767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_27_1691510993769",
+      "previous_sibling": "response_26_1691510993769"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_22_1691510993767",
+      "conditions": "$data",
+      "dialog_node": "response_28_1691510993769",
+      "previous_sibling": "response_27_1691510993769"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " $data.Image"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1691511020715",
+      "conditions": "$data",
+      "dialog_node": "response_33_1691511020717",
+      "previous_sibling": "slot_30_1691511020717"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_29_1691511020715",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_34_1691511020717",
+      "previous_sibling": "response_33_1691511020717"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_29_1691511020715",
+      "conditions": "$data",
+      "dialog_node": "response_35_1691511020717",
+      "previous_sibling": "response_34_1691511020717"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_10_1691500569620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1691500612557",
+      "previous_sibling": "response_6_1691500611053"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Actors: $data.Actors"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1691510870482",
+      "conditions": "$data",
+      "dialog_node": "response_5_1691510870484",
+      "previous_sibling": "slot_2_1691510870484"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here what I know about $data.Title"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1691500569620",
+      "conditions": "$data",
+      "dialog_node": "response_6_1691500611053",
+      "previous_sibling": "slot_10_1691502921452"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_1_1691510870482",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1691510870484",
+      "previous_sibling": "response_5_1691510870484"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_10_1691500569620",
+      "conditions": "$data",
+      "dialog_node": "response_7_1691502993982",
+      "previous_sibling": "response_5_1691500612557"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_1_1691510870482",
+      "conditions": "$data",
+      "dialog_node": "response_7_1691510870484",
+      "previous_sibling": "response_6_1691510870484"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1691500569620",
+      "variable": "$movie",
+      "dialog_node": "slot_10_1691502921452",
+      "previous_sibling": "node_1_1691510870482"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_15_1691510965964",
+      "variable": "$movie",
+      "dialog_node": "slot_16_1691510965966",
+      "previous_sibling": "node_22_1691510993767"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1691510870482",
+      "variable": "$movie",
+      "dialog_node": "slot_2_1691510870484",
+      "previous_sibling": "node_8_1691510913626"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_22_1691510993767",
+      "variable": "$movie",
+      "dialog_node": "slot_23_1691510993769",
+      "previous_sibling": "node_29_1691511020715"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1691511020715",
+      "variable": "$movie",
+      "dialog_node": "slot_30_1691511020717"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1691414712278",
+      "variable": "$movie",
+      "dialog_node": "slot_8_1691501446150",
+      "previous_sibling": "handler_1_1691501445766"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1691510913626",
+      "variable": "$movie",
+      "dialog_node": "slot_9_1691510913629",
+      "previous_sibling": "node_15_1691510965964"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "beta"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant 8199f01e-cd8c-4709-a105-d9e586405004",
+  "name": "CineBot-dialog"
+}
