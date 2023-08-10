@@ -1,0 +1,2461 @@
+{
+  "name": "managerbatestin",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 17,
+    "entities": 17,
+    "dialog_nodes": 26
+  },
+  "status": "Available",
+  "created": "2023-08-10T17:14:43.730Z",
+  "updated": "2023-08-10T17:14:43.730Z",
+  "language": "pt-br",
+  "skill_id": "a3e3ff74-8b3d-4146-be50-8a54c18f6057",
+  "snapshot": "3",
+  "workspace": {
+    "created": "2023-08-10T17:14:43.730Z",
+    "intents": [
+      {
+        "intent": "ACCENTURE",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Accenture",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "a centure",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "acenture",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Estou interessado em saber mais sobre a ACCENTURE",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Gostaria de ouvir mais informações a respeito da ACCENTURE.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "O que o maycon fazia na Accenture",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Pode me contar mais acerca da ACCENTURE?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia compartilhar detalhes sobre a ACCENTURE",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia me explicar sobre a ACCENTURE?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual a experiência dele na Accenture",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "Sobre a ACCENTURE"
+      },
+      {
+        "intent": "ADEUS",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Adeus",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "bye bye",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ce manda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "goodbye",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "se manda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "simbora",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Tchau",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "te manda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Vai com Deus",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai embora",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai na fé",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai simbora",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vaza",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "very well",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "very welll",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "adeus"
+      },
+      {
+        "intent": "certificações",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "badges",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Certificações",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "certificado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "diplomas",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele tem algum certificado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "maycon possui alguma certificação",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "queria saber sobre suas certificações",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "títulos",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "sobre certificações"
+      },
+      {
+        "intent": "contato",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "como faço para entrar em contato com maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "como falo com ele",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele teem e-mail",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele tem mail",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual contato do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual telefone do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual zap do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que hora q ele pode falar comigo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero falar diretamente com maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero falar diretametne com ele",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "para entrar em contato"
+      },
+      {
+        "intent": "Curriculo",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Como posso ver o curriculo do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "curriculo do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele tem linkedim",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "onde posso acessar o curriculo do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual é o curriculo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual é o linkedin dele",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Quero ver o curriculo dele",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Quero ver o linkedin do Maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "Sobre curriculo"
+      },
+      {
+        "intent": "experiencia",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "aonde ele trabalhou",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "com o que ele trabalhou",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "onde ele trabalha",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "onde o maycon trabalha",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual é a empresa",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual foi o emprego",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual foi o primeiro emprego",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual foi o ultimo emprego",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que empresa",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "sobre experiencias"
+      },
+      {
+        "intent": "habilidades",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "o que ele sabe",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que o maycon sabe",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quais sao suas habilidades",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quais sao suas skills",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "habilidades"
+      },
+      {
+        "intent": "IBM",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "ele trabalhou na IBM",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Em qual empresa ele está trabalhando agora?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Em que empresa ele se encontra no momento?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Estou interessado em saber mais sobre a IBM.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Gostaria de ouvir mais informações a respeito da IBM.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "i.b.m",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "IBM",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "industrial business machine",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Pode me contar mais acerca da IBM?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia compartilhar detalhes sobre a IBM?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia me explicar sobre a IBM?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual é a companhia onde ele está atualmente atuando?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual é a instituição na qual ele está empregado no presente momento?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Qual é a organização onde ele está atualmente empregado?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qual é o emprego mais recente dele",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "IBM"
+      },
+      {
+        "intent": "NÃO",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "basta",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "cansei",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "chega",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "claro q nao",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "claro que não",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "defitivamente não",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "já basta",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "já deu",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "não",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "não quero mais",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "não quero saber",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "no",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "nop",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "para casos negativos"
+      },
+      {
+        "intent": "NTTDATA",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Estou interessado em saber mais sobre a Everis.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Estou interessado em saber mais sobre a NTT DATA.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Everis",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Gostaria de ouvir mais informações a respeito da Everis.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Gostaria de ouvir mais informações a respeito da NTT DATA.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "NTT DATA",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Pode me contar mais acerca da Everis?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Pode me contar mais acerca da NTT DATA?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia compartilhar detalhes sobre a Everis?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia compartilhar detalhes sobre a NTT DATA?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia me explicar sobre a Everis?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Poderia me explicar sobre a NTT DATA?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "NTTDATA"
+      },
+      {
+        "intent": "Obrigado",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Eu te agradeço",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "gratidão por seu trabalho",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "gratidão por tudo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "muitissimo obrigado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "muito demais da sua parte",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "muito legal de sua parte",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "muito obrigada",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Muito obrigado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "obrigado por tudo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que demais",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vc foi de grande ajuda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "você foi de grande ajdua",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "você foi de grande ajuda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "Sobre agradecimentos"
+      },
+      {
+        "intent": "ofensas",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "bunda mole",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "eu to com muita raiva de vc",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "filho da puta",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "pau no seu cu",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "puta q pariu",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero q se foda",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero q vc morra",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "responde seu idiota",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "seu gay",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "seu veado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "seu viado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "sua bicha",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "sua raba é minha",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai para casa do caralho",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai se foder",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Vai se fuder",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "vai tomar no cu",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "sobre ofensas"
+      },
+      {
+        "intent": "portifólio",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Desejo ter acesso ao portfólio do dele.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele pode provar o seu trabalho?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ele tem alguma coisa para mostrar?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Estou buscando informações sobre o portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Estou interessado em saber mais sobre o portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Eu quero saber do portifólio do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "github",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Gostaria de conhecer o portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "maycon tem github?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Pretendo descobrir mais sobre o portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Quero obter detalhes do portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero ver o github do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Tenho curiosidade em relação ao portfólio do Maycon.",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "Sobre portifólio"
+      },
+      {
+        "intent": "saudação",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "Como vai você?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "cualé",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "hello",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "hey",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "hi",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "oi",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ola",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "olá",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Opa e ai mano?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "qualé",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "Salve salve mestre",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "saudação",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "saudação"
+      },
+      {
+        "intent": "SIM",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "afirmativo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "claro que sim",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "definitivamente",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "ok",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "pode ser",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "positivo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "SIm",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "talves",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "talvez",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "tauvez",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "para casos positivos"
+      },
+      {
+        "intent": "sobreMaycon",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "com o que o maycon trabalha",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que é o maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que o maycon é",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que o maycon faz",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quais os cursos que o maycon tem",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quem é maycon?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero alguma informacao do maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quero falar sobre o maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "Sobre o Maycon"
+      },
+      {
+        "intent": "sobrevc",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "examples": [
+          {
+            "text": "me fale sobre você",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que é você",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que você faz",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "o que você pode fazer",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quem é você",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "quem realmente é você",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que tipo de bot é você",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que tipo de robo é vc?",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          },
+          {
+            "text": "que tipo de robo é vocÊ",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z"
+          }
+        ],
+        "description": "sobre o chatbot"
+      }
+    ],
+    "updated": "2023-08-10T17:14:43.730Z",
+    "entities": [
+      {
+        "entity": "ACCENTURE",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "ACCENTURE",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "accenture",
+              "a centure",
+              "acenture",
+              "Assenture"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "ADEUS",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Adeus",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "Adeus",
+              "Amém",
+              "atalavista",
+              "até",
+              "até a vista",
+              "Até mais",
+              "bye bye",
+              "chau",
+              "Deus te proteja",
+              "Fique com Deus",
+              "goodbye",
+              "tcau",
+              "Tchau",
+              "vai com Deus",
+              "vai embora",
+              "xau"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Certificações",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "certificações",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "badges",
+              "certificações",
+              "conquistas",
+              "cursos",
+              "diplomas",
+              "formações",
+              "graduações",
+              "prêmios",
+              "títulos"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "contato",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "contato",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "celular",
+              "contato",
+              "e-mail",
+              "email",
+              "endereço",
+              "endereço eletronico",
+              "fone",
+              "gmail",
+              "mail",
+              "phone",
+              "telefone",
+              "whatsapp",
+              "zap"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Curriculo",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "curriculo",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "corriculo",
+              "curricolo",
+              "curriculum",
+              "Curriculum vitae ",
+              "Documento de experiência ",
+              "Histórico profissional ",
+              "likedim",
+              "likedin",
+              "limkedim",
+              "linkedin",
+              "linkendin",
+              "Perfil de carreira ",
+              "Portfólio de trabalho ",
+              "Registro profissional ",
+              "Resumo profissional ",
+              "vitae"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Experiência",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "experiência",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "companhias",
+              "empregado",
+              "empregador",
+              "emprego",
+              "empresas",
+              "Experiência",
+              "job",
+              "quero ver suas experiencias",
+              "registro em carteira",
+              "trabalho"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "habilidades",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "habilidades",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "abilidades",
+              "abilitys",
+              "habilidades",
+              "skill",
+              "skills"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "IBM",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "IBM",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "I.B.M",
+              "IBM",
+              "Mais atual",
+              "recente"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "maycon",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Batestin",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Cypriano",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Maycon",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "nome",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "batestin",
+              "cypriano",
+              "maycon",
+              "Maycon Cypriano Batestin",
+              "sobre o batestin",
+              "sobre o maycon"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "NAO",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "nao",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "chega",
+              "claro que não",
+              "de jeito nenhum",
+              "nao",
+              "não quero mais",
+              "negativo",
+              "nem pensar",
+              "no",
+              "sai fora",
+              "vai embora"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "NTTDATA",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "NTTDATA",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "data",
+              "everis",
+              "NTDATA",
+              "NTT DATA",
+              "nttdata",
+              "primeiro emprego",
+              "primeiro trabalkho"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Obrigado",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Obrigado",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "Agradecido",
+              " Agradecimento ",
+              "Agradeço imensamente ",
+              "Aprecio ",
+              " Estou em dívida ",
+              "Fico-lhe grato ",
+              "grata",
+              "Gratidão ",
+              " Grato ",
+              "Mil obrigados",
+              "Muito obrigado ",
+              "Obrigada",
+              "Obrigadaço ",
+              "Obrigadíssimo ",
+              "Reconhecido",
+              "Te agradeço ",
+              "Valorizo "
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "ofensas",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "ofensas",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "anus",
+              "boceta",
+              "buceta",
+              "bunda",
+              "cacete",
+              "cu",
+              "desgraça",
+              "disgraça",
+              "fdp",
+              "filho da puta",
+              "inferno",
+              "mata",
+              "morrer",
+              "odio",
+              "pau",
+              "pau no cu",
+              "penis",
+              "peru",
+              "peste",
+              "piru",
+              "puta q pariu",
+              "quero te matar",
+              "raiva",
+              "se mata",
+              "seu caralho",
+              "seu veado",
+              "seu viado",
+              "suicida",
+              "suícidio",
+              "vagina",
+              "vai para puta q pariu",
+              "vai se foder",
+              "vai tomar no cu",
+              "verme"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "portifolio",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "portifolio",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "amostras",
+              "códigos",
+              "exibir ",
+              "fez",
+              "git",
+              "github",
+              "hub",
+              "link de",
+              "link do portifólio",
+              "projetos"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "saudação",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "saudacao",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "aí",
+              "como vai",
+              "e ai",
+              "fala",
+              "falaaa",
+              "fala aí",
+              "fala bixo",
+              "fala mano",
+              "oi",
+              "ola",
+              "salve salve",
+              "saudacao",
+              "suave na nave?"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "SIM",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "sim",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "afirmativo",
+              "claro",
+              "com certeza",
+              "definitivo",
+              "pode sim",
+              "s",
+              "si",
+              "sim",
+              "sin",
+              "yeah",
+              "yeap",
+              "yes"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sobrebot",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "sobre o bot",
+            "created": "2023-08-10T17:14:44.229Z",
+            "updated": "2023-08-10T17:14:44.229Z",
+            "synonyms": [
+              "com quem estou falando",
+              "com quem eu falo",
+              "o que eh você",
+              "o que es tu",
+              "o que é você",
+              "o que tu faz",
+              "o que vc faz",
+              "o que vc pode fazer",
+              "o que você faz",
+              "o q vc faz",
+              "que chatbot é vc",
+              "quem eh vc",
+              "quem eh você",
+              "quem é vc",
+              "quem é você",
+              "que tipo de robo é vc",
+              "q vc faz",
+              "sobre vc",
+              "sobre você",
+              "to falando com quem?"
+            ]
+          }
+        ],
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "pt-br",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 17,
+          "entities": 17,
+          "dialog_nodes": 26
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Bem-vindo",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Olá."
+                },
+                {
+                  "text": "Oi"
+                },
+                {
+                  "text": "E aí?"
+                },
+                {
+                  "text": "Como vai?"
+                },
+                {
+                  "text": "Salve salve!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_10_1691614095945"
+        },
+        "conditions": "welcome || @saudação || #saudação",
+        "dialog_node": "Bem-vindo"
+      },
+      {
+        "type": "standard",
+        "title": "Em outros casos",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Eu não entendi. Pode repetir a pergunta?"
+                },
+                {
+                  "text": "Não compreendi. Pode repetir a pergunta?"
+                },
+                {
+                  "text": "Essa eu não peguei...Pode repetir a pergunta?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "conditions": "anything_else",
+        "dialog_node": "Em outros casos",
+        "previous_sibling": "node_6_1691677966452",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "perguntaInicial",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Como posso ajudar?"
+                },
+                {
+                  "text": "O que deseja saber?"
+                },
+                {
+                  "text": "Como posso ser útil?"
+                },
+                {
+                  "text": "Em que posso servir?"
+                },
+                {
+                  "text": "O que gostaria de saber?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "dialog_node": "node_10_1691614095945",
+        "previous_sibling": "node_6_1691614008413"
+      },
+      {
+        "type": "standard",
+        "title": "CURRICULO",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Se você quer ver o currículo de Maycon, clique no link https://www.linkedin.com/in/mayconbatestin/"
+                },
+                {
+                  "text": "Se estiver interessado em ver o currículo de Maycon, clique no link https://www.linkedin.com/in/mayconbatestin/."
+                },
+                {
+                  "text": "Para conferir o currículo de Maycon, basta acessar o link https://www.linkedin.com/in/mayconbatestin/."
+                },
+                {
+                  "text": "Se você gostaria de examinar o currículo de Maycon, o link https://www.linkedin.com/in/mayconbatestin/ está disponível."
+                },
+                {
+                  "text": "Caso queira dar uma olhada no currículo de Maycon, o link https://www.linkedin.com/in/mayconbatestin/ está à disposição."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@Curriculo || #Curriculo",
+        "dialog_node": "node_10_1691676276040",
+        "previous_sibling": "node_7_1691629745962"
+      },
+      {
+        "type": "standard",
+        "title": "Adeus",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Volte sempre."
+                },
+                {
+                  "text": "Bye Bye."
+                },
+                {
+                  "text": "Agradeço o seu tempo. Volte sempre."
+                },
+                {
+                  "text": "Tmj."
+                },
+                {
+                  "text": "Qualquer coisa é só chamar."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_7_1691673022215"
+        },
+        "conditions": "@ADEUS || #ADEUS",
+        "dialog_node": "node_1_1691614599247",
+        "previous_sibling": "node_8_1691615142920"
+      },
+      {
+        "type": "standard",
+        "title": "hardskill",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Para soft skill o Maycon possuí carisma, dedicação, auto disciplinamento, comunicação, pensamento crítico, liderança, gerenciamento de conflitos, proatividade e criatividade"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1691628964525",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691670288673"
+        },
+        "dialog_node": "node_1_1691629259023"
+      },
+      {
+        "type": "standard",
+        "title": "skills softs",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Linguas: INGLES e PORTUGUES"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1691629259023",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "condition",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "dialog_node": "node_1_1691670288673"
+      },
+      {
+        "type": "standard",
+        "title": "skills",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Certo, você quer saber sobre suas habilidades. Maycon possuí tanto soft quanto hards skills. "
+                },
+                {
+                  "text": "Muito bem, você quer saber sobre suas skills. Maycon possuí tanto soft quanto hards skills. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1691628964525"
+        },
+        "conditions": "#habilidades || @habilidades && true",
+        "dialog_node": "node_2_1691628941259"
+      },
+      {
+        "type": "standard",
+        "title": "CERTIFICACOES",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Se deseja verificar as certificações de Maycon, acesse: https://www.credly.com/users/mayconbatestin/badges"
+                },
+                {
+                  "text": "Caso tenha curiosidade sobre suas certificações, acesse: https://www.credly.com/users/mayconbatestin/badges"
+                },
+                {
+                  "text": "Todas as certificações podem ser encontradas aqui: https://www.credly.com/users/mayconbatestin/badges"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@Certificações || #certificações",
+        "dialog_node": "node_2_1691678902117",
+        "previous_sibling": "node_7_1691678116730"
+      },
+      {
+        "type": "standard",
+        "title": "SIM",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Claro..."
+                },
+                {
+                  "text": "Beleza..."
+                },
+                {
+                  "text": "Blz..."
+                },
+                {
+                  "text": "Sem problema..."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_8_1691615142920"
+        },
+        "conditions": "#SIM || @SIM",
+        "dialog_node": "node_3_1691672584198",
+        "previous_sibling": "node_10_1691614095945"
+      },
+      {
+        "type": "standard",
+        "title": "Não",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Compreendido..."
+                },
+                {
+                  "text": "Entendido..."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_7_1691673022215"
+        },
+        "conditions": "#NÃO || @NAO",
+        "dialog_node": "node_3_1691672843428",
+        "previous_sibling": "node_3_1691672584198"
+      },
+      {
+        "type": "standard",
+        "title": "skills linguagens",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Para hard skills, o Maycon possuí conhecimento nas áreas de Data Science, Data Engineer, Machine Learning e Clouds. Estas são as ferramentas que ele mais domina: PYTHON, BASH, JAVA, GO, SQL, NOSQL, AWS, GCP, IBM-CLOUD, RED HAT E SERVICE NOW."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1691628941259",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691629259023"
+        },
+        "dialog_node": "node_4_1691628964525"
+      },
+      {
+        "type": "standard",
+        "title": "DESEMBIGUACAO(EXEPERIECIA)",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Qual delas você quer saber a respeito?"
+                },
+                {
+                  "text": "Qual delas você quer saber a respeito?"
+                },
+                {
+                  "text": "De qual delas você deseja aprender mais?"
+                },
+                {
+                  "text": "Qual delas você está interessado em conhecer melhor?"
+                },
+                {
+                  "text": "Qual delas você está curioso para descobrir mais informações?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_7_1691629745962",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "conditions": "true",
+        "dialog_node": "node_4_1691629760544"
+      },
+      {
+        "type": "standard",
+        "title": "IBM",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Maycon foi contratado pela IBM em FEVEREIRO DE 2022 e atua até presente momento. Pela IBM, Maycon atuou como Especialista em Ciência de Dados, contribuindo para a resolução de problemas complexos por meio do treinamento de modelos de aprendizado de máquina. Durante seu tempo como Engenheiro AWS na mesma empresa, desempenhou um papel fundamental na criação de arquiteturas de dados robustas e na implementação de pipelines eficientes de extração, transformação e carga (ETL) em ambientes AWS. Com foco em garantir a segurança, escalabilidade e desempenho, ele projetou soluções de dados que integraram diversas fontes e otimizaram o processamento distribuído usando tecnologias como Amazon S3, DynamoDB e EMR. Além disso, trabalhou em estreita colaboração com equipes multidisciplinares, incluindo analistas de dados e engenheiros de software, para apoiar as necessidades de análise e insights da empresa. Ao longo de seu percurso profissional, Maycon demonstrou habilidades sólidas em modelagem de dados, análise exploratória, otimização de desempenho e segurança de dados, contribuindo significativamente para a inovação e excelência técnica na IBM."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_4_1691629760544",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "#IBM || @IBM",
+        "dialog_node": "node_4_1691674761636",
+        "previous_sibling": "node_5_1691675037393"
+      },
+      {
+        "type": "standard",
+        "title": "ALGOMAIS",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Algo mais que deseja saber sobre o Maycon?"
+                },
+                {
+                  "text": "Deseja perguntar algo mais sobre o Maycon?"
+                },
+                {
+                  "text": "Tem curiosidade em algo mais?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "dialog_node": "node_5_1691629385839",
+        "previous_sibling": "node_2_1691628941259"
+      },
+      {
+        "type": "standard",
+        "title": "ACCENTURE",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Na Accenture, Maycon foi contratado em JANEIRO DE 2021 e atuou até JANEIRO DE 2022. Maycon desempenhou o papel de Engenheiro de Dados, utilizando a plataforma AWS para orquestrar o fluxo de dados desde a extração, manipulação e carregamento até os insights da equipe de Ciência de Dados. Ele trabalhou na coleta de dados de várias fontes, incluindo bancos de dados internos, sistemas legados, bureaus de crédito e formulários de aplicativos. Utilizando ferramentas como Apache Kafka, ele habilitou a ingestão de dados em tempo real, permitindo o processamento e armazenamento no Hadoop Distributed File System (HDFS) ou Amazon S3.\n\nMaycon também foi responsável pelo armazenamento de dados, optando pelo uso de HDFS para integração com o ecossistema Hadoop e Amazon S3 na AWS. Ele realizou a limpeza e pré-processamento dos dados usando Apache Spark, aproveitando a execução distribuída para transformações de grande escala.\n\nA integração de dados foi realizada por meio de Apache Hive ou AWS Glue para lidar com fontes variadas. Hive possibilitou a criação de tabelas e consultas SQL em dados armazenados no HDFS, enquanto AWS Glue, um serviço gerenciado de ETL, permitiu a descoberta, catalogação e transformação de dados no Amazon S3.\n\nCom dados pré-processados, Maycon criou recursos analíticos usando linguagens como SQL, Scala ou Python. Ele usou HiveQL para consultas SQL e aproveitou o Spark para desenvolver capacidades analíticas mais complexas em várias linguagens de programação.\n\nEm sua função, a monitorização e atualização de modelos foram consideradas essenciais. Para isso, Maycon utilizou ferramentas como Apache Ambari para gerenciar o ecossistema Hadoop, além de serviços AWS como Amazon CloudWatch para monitorar recursos e AWS Lambda para executar código em resposta a eventos específicos. Sua atuação na Accenture destacou sua habilidade em projetar, implementar e otimizar fluxos de dados complexos, contribuindo para o sucesso da análise de dados e tomada de decisões da empresa."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_4_1691629760544",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "#ACCENTURE || @ACCENTURE",
+        "dialog_node": "node_5_1691675037393",
+        "previous_sibling": "node_6_1691675199972"
+      },
+      {
+        "type": "standard",
+        "title": "SobreMaycon",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Maycon Cipriano Batestin é um experiente Data Scientist atualmente na IBM, com sólida formação acadêmica, fluência em inglês e paixão por cinema e computação. Ele domina linguagens como R, Python, Julia, Spark, Scala e Java, destacando-se como Data Pythonist. Além disso, Maycon é especializado na área de Data Science e Computação Quântica, utilizando sua criatividade para extrair insights inovadores de conjuntos de dados complexos. Sua devoção a Deus reflete em seus valores sólidos e dedicação, e sua narrativa em terceira pessoa é um estilo distintivo em sua comunicação."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@maycon || #sobreMaycon",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_5_1691678515934",
+        "previous_sibling": "node_7_1691673022215"
+      },
+      {
+        "type": "standard",
+        "title": "sobreOBot",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Eu sou Batestin Bot. O personal chatbot de currículo de Maycon Cypriano Batestin"
+                },
+                {
+                  "text": "Sou Batestin Bot. O chatbot de currículo de Maycon Cypriano Batestin"
+                },
+                {
+                  "text": "Eu sou Batestin Bot. O assistente virtual personalizado para currículo de Maycon Cypriano Batestin."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_10_1691614095945"
+        },
+        "conditions": "#sobrevc || @sobrebot",
+        "dialog_node": "node_6_1691614008413",
+        "previous_sibling": "Bem-vindo"
+      },
+      {
+        "type": "standard",
+        "title": "NTTDATA",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Na NTT DATA, Maycon foi contratado em 2019 e atuou até DEZEMBRO de 2020. Maycon atuou como Engenheiro de Dados focado em ODS (Sistemas de Dados Operacionais), desempenhando um papel crucial na eficiente gestão e organização dos dados operacionais em uma estrutura centralizada. Sua principal responsabilidade envolveu o projeto e modelagem do ODS, considerando os requisitos de negócios e fontes de dados operacionais. Ele definiu o esquema de dados do ODS, identificando entidades e atributos relevantes, criando tabelas e relacionamentos, e definindo chaves primárias e estrangeiras de acordo com as necessidades da empresa.\n\nAlém disso, Maycon realizou a integração de dados, executando a extração, transformação e carregamento de dados operacionais de várias fontes para o ODS. Ele desenvolveu pipelines de dados que garantiam a integridade e qualidade dos dados durante o processo de carregamento, utilizando ferramentas ETL como Apache NiFi ou AWS Glue para facilitar e automatizar esse processo.\n\nComo parte do seu papel, ele assegurou a qualidade dos dados, realizando verificações para garantir a precisão e consistência das informações armazenadas no ODS. Ele identificou e resolveu problemas como valores ausentes, duplicatas, erros de formatação ou inconsistências entre fontes de dados, garantindo que apenas dados confiáveis e limpos fossem armazenados no ODS.\n\nMaycon também se dedicou à monitorização e desempenho do ODS, otimizando consultas, implementando índices e aplicando técnicas de particionamento de dados para melhorar a eficiência das análises, garantindo análises rápidas e eficazes.\n\nSua contribuição também se estendeu à integração do ODS com sistemas analíticos, permitindo que os dados armazenados no ODS fossem utilizados para análises avançadas em tempo real. Ele desempenhou um papel fundamental na integração do ODS com ferramentas e plataformas de análise de dados, como data warehouses, data lakes ou ferramentas de visualização, fornecendo insights valiosos para a tomada de decisões estratégicas da empresa. Sua experiência na NTT DATA demonstrou suas habilidades em projetar, implementar e otimizar fluxos de dados, contribuindo significativamente para a inteligência de negócios e análises avançadas."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_4_1691629760544",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@NTTDATA || #NTTDATA",
+        "dialog_node": "node_6_1691675199972"
+      },
+      {
+        "type": "standard",
+        "title": "ofensas",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Eu compreendo que você está irritado, porém mantenha a serenidade! A vida se torna muito mais agradável com um sorriso!"
+                },
+                {
+                  "text": "Reconheço que você está zangado, no entanto, seja paciente! A vida é mais bela quando se está sorrindo!"
+                },
+                {
+                  "text": "Entendo que você está irritado, mas peço que mantenha a calma! A vida se torna mais positiva com um sorriso!"
+                },
+                {
+                  "text": "Compreendo sua frustração, mas por favor seja tolerante! A existência é mais feliz quando há um sorriso no rosto!"
+                },
+                {
+                  "text": "Eu percebo sua raiva, contudo, tenha paciência! A vida se torna mais alegre com um sorriso!"
+                },
+                {
+                  "text": "Sei que você está chateado, no entanto, mantenha a tranquilidade! A vida é mais agradável com um sorriso no rosto!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "conditions": "@ofensas || #ofensas",
+        "dialog_node": "node_6_1691677966452",
+        "previous_sibling": "node_1_1691614599247"
+      },
+      {
+        "type": "standard",
+        "title": "Contato",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Para entrar em contato diretamente com Maycon, por favor envie um e-mail para mayconcypriano@gmail.com"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@contato || #contato",
+        "dialog_node": "node_6_1691679136911",
+        "previous_sibling": "node_2_1691678902117"
+      },
+      {
+        "type": "standard",
+        "title": "EXPERIENCIA",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Aqui estão as ultimas três experiências dele: IBM, ACCENTURE e NTT DATA"
+                },
+                {
+                  "text": "Esta são suas últimas três experiências profissionais: IBM, ACCENTURE e NTT DATA"
+                },
+                {
+                  "text": "Eis um pequeno resumo de suas útilmas experiências profissionais: IBM, ACCENTURE e NTT DATA"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1691629760544"
+        },
+        "conditions": "@Experiência || #experiencia && true",
+        "dialog_node": "node_7_1691629745962",
+        "previous_sibling": "node_5_1691629385839"
+      },
+      {
+        "type": "standard",
+        "title": "Restart",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Para recomeçar o BOT por favor digite \"recomeçar\""
+                },
+                {
+                  "text": "Para recomeçar o BOT por favor digite \"de novo\""
+                },
+                {
+                  "text": "Para recomeçar o BOT por favor digite \"começar\""
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "dialog_node": "node_7_1691673022215",
+        "previous_sibling": "node_9_1691613355072"
+      },
+      {
+        "type": "standard",
+        "title": "PORTIFÓLIO",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Se deseja ver o portifólio do Maycon, acesse: https://github.com/batestin1"
+                },
+                {
+                  "text": "Caso queira visualizar o portfólio de Maycon, visite: https://github.com/batestin1.\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_8_1691615142920",
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_5_1691629385839"
+        },
+        "conditions": "@portifolio || #portifólio",
+        "dialog_node": "node_7_1691678116730",
+        "previous_sibling": "node_10_1691676276040"
+      },
+      {
+        "type": "standard",
+        "title": "DesembuiçãoMaycon",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "O que você deseja saber sobre Maycon?"
+                },
+                {
+                  "text": "Entendi, mas o que realmente você quer saber sobre o Maycon?"
+                },
+                {
+                  "text": "Claro, mas o que deseja saber sobre o Maycon?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "conditions": "@maycon || #sobreMaycon && true",
+        "dialog_node": "node_8_1691615142920",
+        "previous_sibling": "node_5_1691678515934"
+      },
+      {
+        "type": "standard",
+        "title": "Obrigado",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Agradeço seu tempo!"
+                },
+                {
+                  "text": "Estou a disposição."
+                },
+                {
+                  "text": "Tmj."
+                },
+                {
+                  "text": "Chame sempre que quiser!"
+                },
+                {
+                  "text": "Qualquer coisa, é só me chamar novamente!"
+                },
+                {
+                  "text": "Obrigado."
+                },
+                {
+                  "text": "Tamo junto!"
+                },
+                {
+                  "text": "Eu que agradeço"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-10T17:14:44.229Z",
+        "updated": "2023-08-10T17:14:44.229Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_7_1691673022215"
+        },
+        "conditions": "@Obrigado || #Obrigado",
+        "dialog_node": "node_9_1691613355072",
+        "previous_sibling": "node_3_1691672843428"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "nlp": {
+        "model": "beta"
+      },
+      "disambiguation": {
+        "enabled": false,
+        "randomize": true,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "Não entendi"
+      }
+    },
+    "learning_opt_out": false
+  },
+  "description": "update a entities",
+  "assistant_id": "de7e2ef8-3c45-4dca-bf0d-62c0fccec1de",
+  "dialog_settings": {
+    "source_assistant": "15525841-8633-4f1b-ab0c-a4a61a4b72d0"
+  },
+  "assistant_references": [
+    {
+      "name": "managerbatestin",
+      "assistant_id": "15525841-8633-4f1b-ab0c-a4a61a4b72d0",
+      "skill_reference": "main skill"
+    }
+  ]
+}
