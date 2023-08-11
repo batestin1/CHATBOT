@@ -1,23 +1,14 @@
 import streamlit as st
-from key import key
 
-def main():
-    keys = str(key()['key'])
-    bot_url = f"https://webchat.botframework.com/embed/botBatestin?s={keys}"
-    page_bg = f'''
-    <style>
-    .stApp {{
-        background-image: url("C:/Users/Bates/Documents/Repositorios/chatbot/BATESTINBOT/STREAMLIT/assets/wall.jpg");
-        background-size: cover;
-        background-repeat: repeat;
-    }}
-    </style>
-    '''
-    st.markdown(page_bg, unsafe_allow_html=True)
-    st.markdown('<div class="stApp"><h1 style="text-align: center;">BOT BATESTIN</h1></div>', unsafe_allow_html=True)
-    iframe_code = f'<iframe src="{bot_url}" style="min-width: 300px; width: 100%; min-height: 400px;"></iframe>'
-    st.markdown('<div class="stApp">' + iframe_code + '</div>', unsafe_allow_html=True)
+chatbot_url = "https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-9148eace-be33-47ff-b027-d1c9e6c0e6cd%3A%3Ade7e2ef8-3c45-4dca-bf0d-62c0fccec1de&integrationID=60a965ec-37ee-4aa3-b735-0558faf6fb76&region=us-south&serviceInstanceID=9148eace-be33-47ff-b027-d1c9e6c0e6cd"
 
-if __name__ == "__main__":
-    main()
+st.set_page_config(page_title="BATESTIN BOT")
 
+st.markdown('<h1 style="text-align: center;">BOT BATESTIN</h1>', unsafe_allow_html=True)
+
+iframe_code = f"""
+<div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+    <iframe src="{chatbot_url}" width="600" height="400"></iframe>
+</div>
+"""
+st.markdown(f'{iframe_code}', unsafe_allow_html=True)
