@@ -1,14 +1,30 @@
 import streamlit as st
 
-chatbot_url = "https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-9148eace-be33-47ff-b027-d1c9e6c0e6cd%3A%3Ade7e2ef8-3c45-4dca-bf0d-62c0fccec1de&integrationID=60a965ec-37ee-4aa3-b735-0558faf6fb76&region=us-south&serviceInstanceID=9148eace-be33-47ff-b027-d1c9e6c0e6cd"
+def main():
+    st.title("Integração com Watson Assistant")
 
-st.set_page_config(page_title="BATESTIN BOT")
+    # Carregando o conteúdo HTML do arquivo watson_chat.html
+    with open("C:/Users/Bates/Documents/Repositorios/chatbot/BATESTINBOT/STREAMLIT/script/watson.html", "r") as f:
+        watson_chat_code = f.read()
 
-st.markdown('<h1 style="text-align: center;">BOT BATESTIN</h1>', unsafe_allow_html=True)
+    # Exibindo o widget de chat do Watson Assistant
+    st.components.v1.html(watson_chat_code, height=300)
+    st.markdown(
+        f'''
+        <style>
+            body {{
+                background-image: url('C:/Users/Bates/Documents/Repositorios/chatbot/BATESTINBOT/STREAMLIT/assets/wall.jpg');
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }}
+        </style>
+        ''',
+        unsafe_allow_html=True
+    )
 
-iframe_code = f"""
-<div style="display: flex; justify-content: center; align-items: center; height: 80vh;">
-    <iframe src="{chatbot_url}" width="600" height="400"></iframe>
-</div>
-"""
-st.markdown(f'{iframe_code}', unsafe_allow_html=True)
+if __name__ == "__main__":
+    main()
