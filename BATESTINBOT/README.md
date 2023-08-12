@@ -23,8 +23,9 @@ The chatbot is self-responsive and answers questions directed to the Maycon pers
 1. Entities -> Contains files referring to entities that permeate the chatbot. They are in CSV format.
 2. Content -> Contains the dialog flows proposed by the chatbot. It is in JSON format.
 3. Skill -> Contains the project as a whole, except its identification keys and accesses. It is in JSON format.
-4. Strealimt -> Contains the project as streamlit python for app device.
-5. Train_files -> files to train the model project.
+4. Intents ->  Contains files referring to intents that permeate the chatbot. They are in CSV format
+5. Strealimt -> Contains the project as streamlit python for app device.
+6. Train_files -> files to train the model project.
 
 
 <h3>How to Run</h3>

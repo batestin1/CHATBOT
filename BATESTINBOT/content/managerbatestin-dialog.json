@@ -906,7 +906,10 @@
           "value": "curriculo",
           "synonyms": [
             "corriculo",
+            "curri",
             "curricolo",
+            "curricu-lo",
+            "curriculo",
             "curriculum",
             "Curriculum vitae ",
             "Documento de experiência ",
@@ -918,6 +921,8 @@
             "linkendin",
             "Perfil de carreira ",
             "Portfólio de trabalho ",
+            "profile",
+            "rede social",
             "Registro profissional ",
             "Resumo profissional ",
             "vitae"
@@ -1615,6 +1620,19 @@
     },
     {
       "type": "standard",
+      "title": "experiencias",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1691776531678"
+      },
+      "conditions": "@Experiência || #experiencia",
+      "dialog_node": "node_1_1691852658290",
+      "previous_sibling": "node_7_1691852612105"
+    },
+    {
+      "type": "standard",
       "title": "skill",
       "output": {
         "generic": []
@@ -1689,6 +1707,19 @@
       "conditions": "@Certificações || #certificações",
       "dialog_node": "node_2_1691678902117",
       "previous_sibling": "node_7_1691678116730"
+    },
+    {
+      "type": "standard",
+      "title": "skills",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1691776485803"
+      },
+      "conditions": "@habilidades || #habilidades",
+      "dialog_node": "node_2_1691852701420",
+      "previous_sibling": "node_1_1691852658290"
     },
     {
       "type": "standard",
@@ -1783,6 +1814,19 @@
       "conditions": "$portifolio && @portifolio",
       "dialog_node": "node_3_1691776377601",
       "previous_sibling": "node_10_1691776446506"
+    },
+    {
+      "type": "standard",
+      "title": "portifólio",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1691776377601"
+      },
+      "conditions": "@portifolio || #portifólio",
+      "dialog_node": "node_3_1691852742913",
+      "previous_sibling": "node_2_1691852701420"
     },
     {
       "type": "standard",
@@ -1941,6 +1985,10 @@
       "output": {
         "generic": [
           {
+            "source": "https://media.licdn.com/dms/image/D4D03AQFamdtY57JKbg/profile-displayphoto-shrink_200_200/0/1681843348700?e=1697068800&v=beta&t=nGWvogzuC55L9o86s_LQeiVGNHuA6hKJerAuqPe9FlM",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
                 "text": "Maycon Cipriano Batestin é um experiente Data Scientist atualmente na IBM, com sólida formação acadêmica, fluência em inglês e paixão por cinema e computação. Ele domina linguagens como R, Python, Julia, Spark, Scala e Java, destacando-se como Data Pythonist. Além disso, Maycon é especializado na área de Data Science e Computação Quântica, utilizando sua criatividade para extrair insights inovadores de conjuntos de dados complexos. Sua devoção a Deus reflete em seus valores sólidos e dedicação, e sua narrativa em terceira pessoa é um estilo distintivo em sua comunicação."
@@ -1990,7 +2038,7 @@
       },
       "conditions": "#sobrevc || @sobrebot",
       "dialog_node": "node_6_1691614008413",
-      "previous_sibling": "Bem-vindo"
+      "previous_sibling": "node_3_1691852742913"
     },
     {
       "type": "standard",
@@ -2172,6 +2220,18 @@
     },
     {
       "type": "standard",
+      "title": "curriculo",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1691776446506"
+      },
+      "conditions": "@Curriculo || #Curriculo",
+      "dialog_node": "node_7_1691852612105",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
       "title": "DesembuiçãoMaycon",
       "output": {
         "generic": [
@@ -2348,10 +2408,12 @@
       "model": "beta"
     },
     "disambiguation": {
-      "enabled": false,
+      "prompt": "Essa eu não peguei. Será que você quis dizer: ",
+      "enabled": true,
       "randomize": true,
+      "max_suggestions": 1,
       "suggestion_text_policy": "title",
-      "none_of_the_above_prompt": "Não entendi"
+      "none_of_the_above_prompt": "None of the above."
     }
   },
   "learning_opt_out": false,

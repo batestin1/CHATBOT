@@ -24,7 +24,7 @@ You can chat normally with chabot, when it asks for pokemon, it will query the A
 1. Entities -> Contains files referring to entities that permeate the chatbot. They are in CSV format.
 2. Content -> Contains the dialog flows proposed by the chatbot. It is in JSON format.
 3. Skill -> Contains the project as a whole, except its identification keys and accesses. It is in JSON format.
-
+4. Intents ->  Contains files referring to intents that permeate the chatbot. They are in CSV format
 
 <h3>How to Run</h3>
 
