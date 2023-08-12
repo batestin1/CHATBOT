@@ -91,6 +91,30 @@
       "description": "adeus"
     },
     {
+      "intent": "ajuda",
+      "examples": [
+        {
+          "text": "cade as opções"
+        },
+        {
+          "text": "me mostre o menu"
+        },
+        {
+          "text": "quero ajuda"
+        },
+        {
+          "text": "sobre menu"
+        },
+        {
+          "text": "sobre opções"
+        },
+        {
+          "text": "socorro, preciso de ajuda"
+        }
+      ],
+      "description": "menu"
+    },
+    {
       "intent": "certificações",
       "examples": [
         {
@@ -119,6 +143,21 @@
         }
       ],
       "description": "sobre certificações"
+    },
+    {
+      "intent": "começar",
+      "examples": [
+        {
+          "text": "começar"
+        },
+        {
+          "text": "de novo"
+        },
+        {
+          "text": "recomeçar"
+        }
+      ],
+      "description": "começar"
     },
     {
       "intent": "contato",
@@ -187,6 +226,21 @@
       "description": "Sobre curriculo"
     },
     {
+      "intent": "emojis",
+      "examples": [
+        {
+          "text": ":"
+        },
+        {
+          "text": "emoji"
+        },
+        {
+          "text": "isso é um emoji"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "experiencia",
       "examples": [
         {
@@ -223,16 +277,43 @@
       "intent": "habilidades",
       "examples": [
         {
+          "text": "com o q ele trabalha"
+        },
+        {
+          "text": "com o que ele trabalha dia a dia"
+        },
+        {
           "text": "o que ele sabe"
         },
         {
           "text": "o que o maycon sabe"
         },
         {
+          "text": "quais ferramentas"
+        },
+        {
+          "text": "quais linguagens de programação ele usa"
+        },
+        {
+          "text": "quais linguagens de programa ele atua"
+        },
+        {
+          "text": "quais são suas ferramentas de trabalho"
+        },
+        {
           "text": "quais sao suas habilidades"
         },
         {
           "text": "quais sao suas skills"
+        },
+        {
+          "text": "qual ferramenta"
+        },
+        {
+          "text": "que linguagens ele domina"
+        },
+        {
+          "text": "quero saber as ferramentas q ele usa"
         }
       ],
       "description": "habilidades"
@@ -731,6 +812,32 @@
       "fuzzy_match": true
     },
     {
+      "entity": "ajuda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ajuda",
+          "synonyms": [
+            "aguda",
+            "ajuda",
+            "ajude",
+            "botões",
+            "help",
+            "meno",
+            "menu",
+            "mino",
+            "minu",
+            "relp",
+            "reup",
+            "socorro",
+            "sumario",
+            "sumário"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
       "entity": "Certificações",
       "values": [
         {
@@ -746,6 +853,21 @@
             "graduações",
             "prêmios",
             "títulos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "começar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "começar",
+          "synonyms": [
+            "começar",
+            "de novo",
+            "recomeçar"
           ]
         }
       ],
@@ -805,6 +927,36 @@
       "fuzzy_match": true
     },
     {
+      "entity": "dica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dicas",
+          "synonyms": [
+            "conselho",
+            "dica",
+            "dicas",
+            "tip",
+            "tips"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emojis",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "emojis",
+          "patterns": [
+            ":\\w+:"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
       "entity": "Experiência",
       "values": [
         {
@@ -817,9 +969,14 @@
             "emprego",
             "empresas",
             "Experiência",
+            "experiências",
             "job",
+            "onde ele trabalha",
             "quero ver suas experiencias",
             "registro em carteira",
+            "seu trabalho",
+            "skills",
+            "sua empresa",
             "trabalho"
           ]
         }
@@ -835,9 +992,23 @@
           "synonyms": [
             "abilidades",
             "abilitys",
+            "bash",
+            "deploy",
+            "ferramentas",
             "habilidades",
+            "hard skill",
+            "java",
+            "know how",
+            "linguagens",
+            "linux",
+            "programação",
+            "python",
+            "quais linguagens de programação ele usa",
+            "scrum",
             "skill",
-            "skills"
+            "skills",
+            "soft skill",
+            "tools"
           ]
         }
       ],
@@ -974,30 +1145,43 @@
             "buceta",
             "bunda",
             "cacete",
+            "casa do cacete",
             "cu",
             "desgraça",
             "disgraça",
+            "engula minha rola",
+            "esperma",
+            "excitado",
             "fdp",
             "filho da puta",
             "inferno",
+            "lambe",
             "mata",
             "morrer",
             "odio",
             "pau",
+            "pau na",
+            "pau no ",
             "pau no cu",
             "penis",
             "peru",
             "peste",
             "piru",
+            "porra",
+            "porra no",
             "puta q pariu",
             "quero te matar",
             "raiva",
+            "rola",
             "se mata",
+            "semem",
+            "semen",
             "seu caralho",
             "seu veado",
             "seu viado",
             "suicida",
             "suícidio",
+            "tesão",
             "vagina",
             "vai para puta q pariu",
             "vai se foder",
@@ -1150,9 +1334,9 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_10_1691614095945"
+        "dialog_node": "node_1_1691711378760"
       },
-      "conditions": "welcome || @saudação || #saudação",
+      "conditions": "welcome || @saudação || #saudação || @começar || #começar",
       "dialog_node": "Bem-vindo"
     },
     {
@@ -1163,13 +1347,13 @@
           {
             "values": [
               {
-                "text": "Eu não entendi. Pode repetir a pergunta?"
+                "text": "Eu não entendi. "
               },
               {
-                "text": "Não compreendi. Pode repetir a pergunta?"
+                "text": "Não compreendi. "
               },
               {
-                "text": "Essa eu não peguei...Pode repetir a pergunta?"
+                "text": "Essa eu não peguei."
               }
             ],
             "response_type": "text",
@@ -1177,9 +1361,14 @@
           }
         ]
       },
-      "conditions": "anything_else",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691711378760"
+      },
+      "conditions": "anything_else && anything_else",
       "dialog_node": "Em outros casos",
-      "previous_sibling": "node_6_1691677966452",
+      "previous_sibling": "node_1_1691614599247",
       "disambiguation_opt_out": true
     },
     {
@@ -1211,7 +1400,7 @@
         ]
       },
       "dialog_node": "node_10_1691614095945",
-      "previous_sibling": "node_6_1691614008413"
+      "previous_sibling": "node_6_1691677966452"
     },
     {
       "type": "standard",
@@ -1250,6 +1439,22 @@
       "conditions": "@Curriculo || #Curriculo",
       "dialog_node": "node_10_1691676276040",
       "previous_sibling": "node_7_1691629745962"
+    },
+    {
+      "type": "standard",
+      "title": "curriculo",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1691756608789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1691676276040"
+      },
+      "conditions": "$curriculo && @Curriculo",
+      "dialog_node": "node_10_1691776446506",
+      "previous_sibling": "node_17_1691776485803"
     },
     {
       "type": "standard",
@@ -1338,6 +1543,94 @@
     },
     {
       "type": "standard",
+      "title": "dica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se tiver alguma dúvida, a qualquer momento de nossa conversa, você pode digitar \"ajuda\" para obter uma lista de opções para te ajudar!"
+              },
+              {
+                "text": "Se tiver alguma dúvida, a qualquer momento de nossa conversa, você pode digitar \"menu\" para exibir uma lista de opções para você"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1691614095945"
+      },
+      "conditions": "",
+      "dialog_node": "node_1_1691711378760",
+      "previous_sibling": "node_1_1691762177516"
+    },
+    {
+      "type": "frame",
+      "title": "opçõesMenu",
+      "output": {},
+      "parent": "node_4_1691709462515",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1691756608789"
+    },
+    {
+      "type": "standard",
+      "title": "SegundaPergunta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algo mais em que posso ajudar?"
+              },
+              {
+                "text": "Algo mais  que deseja saber?"
+              },
+              {
+                "text": "Há algo mais em que posso ser útil?"
+              },
+              {
+                "text": "Há algo mais em que posso servir?"
+              },
+              {
+                "text": "Há algo mais que gostaria de saber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "dialog_node": "node_1_1691762177516",
+      "previous_sibling": "node_10_1691614095945"
+    },
+    {
+      "type": "standard",
+      "title": "skill",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1691756608789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1691628941259"
+      },
+      "conditions": "$skill && @habilidades",
+      "dialog_node": "node_17_1691776485803",
+      "previous_sibling": "node_24_1691776531678"
+    },
+    {
+      "type": "standard",
       "title": "skills",
       "output": {
         "generic": [
@@ -1362,7 +1655,8 @@
         "dialog_node": "node_4_1691628964525"
       },
       "conditions": "#habilidades || @habilidades && true",
-      "dialog_node": "node_2_1691628941259"
+      "dialog_node": "node_2_1691628941259",
+      "previous_sibling": "node_5_1691629385839"
     },
     {
       "type": "standard",
@@ -1398,6 +1692,22 @@
     },
     {
       "type": "standard",
+      "title": "experiencia",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1691756608789",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1691629745962"
+      },
+      "conditions": "$empresas && @Experiência",
+      "dialog_node": "node_24_1691776531678"
+    },
+    {
+      "type": "standard",
       "title": "SIM",
       "output": {
         "generic": [
@@ -1428,7 +1738,7 @@
       },
       "conditions": "#SIM || @SIM",
       "dialog_node": "node_3_1691672584198",
-      "previous_sibling": "node_10_1691614095945"
+      "previous_sibling": "node_9_1691761755895"
     },
     {
       "type": "standard",
@@ -1457,6 +1767,22 @@
       "conditions": "#NÃO || @NAO",
       "dialog_node": "node_3_1691672843428",
       "previous_sibling": "node_3_1691672584198"
+    },
+    {
+      "type": "standard",
+      "title": "Portifólio",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1691756608789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1691678116730"
+      },
+      "conditions": "$portifolio && @portifolio",
+      "dialog_node": "node_3_1691776377601",
+      "previous_sibling": "node_10_1691776446506"
     },
     {
       "type": "standard",
@@ -1541,6 +1867,24 @@
       "previous_sibling": "node_5_1691675037393"
     },
     {
+      "type": "frame",
+      "title": "titleMENU",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691756608789"
+      },
+      "conditions": "@ajuda || #ajuda && true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1691709462515",
+      "previous_sibling": "node_7_1691673022215"
+    },
+    {
       "type": "standard",
       "title": "ALGOMAIS",
       "output": {
@@ -1563,8 +1907,7 @@
         ]
       },
       "parent": "node_8_1691615142920",
-      "dialog_node": "node_5_1691629385839",
-      "previous_sibling": "node_2_1691628941259"
+      "dialog_node": "node_5_1691629385839"
     },
     {
       "type": "standard",
@@ -1616,7 +1959,7 @@
       "conditions": "@maycon || #sobreMaycon",
       "digress_in": "does_not_return",
       "dialog_node": "node_5_1691678515934",
-      "previous_sibling": "node_7_1691673022215"
+      "previous_sibling": "node_4_1691709462515"
     },
     {
       "type": "standard",
@@ -1705,9 +2048,15 @@
           }
         ]
       },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691711378760"
+      },
       "conditions": "@ofensas || #ofensas",
+      "digress_in": "does_not_return",
       "dialog_node": "node_6_1691677966452",
-      "previous_sibling": "node_1_1691614599247"
+      "previous_sibling": "node_6_1691614008413"
     },
     {
       "type": "standard",
@@ -1765,7 +2114,7 @@
       },
       "conditions": "@Experiência || #experiencia && true",
       "dialog_node": "node_7_1691629745962",
-      "previous_sibling": "node_5_1691629385839"
+      "previous_sibling": "node_2_1691628941259"
     },
     {
       "type": "standard",
@@ -1892,6 +2241,105 @@
       "conditions": "@Obrigado || #Obrigado",
       "dialog_node": "node_9_1691613355072",
       "previous_sibling": "node_3_1691672843428"
+    },
+    {
+      "type": "standard",
+      "title": "emojions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não sei entender muito bem emojis..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1691762177516"
+      },
+      "conditions": "@emojis || #emojis",
+      "dialog_node": "node_9_1691761755895",
+      "previous_sibling": "node_1_1691711378760"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui está uma lista de opções para lhe ajudar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1691709462515",
+      "dialog_node": "response_2_1691756722577",
+      "previous_sibling": "node_1_1691756608789"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Experiências Profissionais",
+                "value": {
+                  "input": {
+                    "text": "experiencia"
+                  }
+                }
+              },
+              {
+                "label": "Skills",
+                "value": {
+                  "input": {
+                    "text": "skill"
+                  }
+                }
+              },
+              {
+                "label": "Currículo",
+                "value": {
+                  "input": {
+                    "text": "curriculo"
+                  }
+                }
+              },
+              {
+                "label": "Portifólio",
+                "value": {
+                  "input": {
+                    "text": "portifolio"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1691756608789",
+      "context": {
+        "skill": "skill",
+        "empresas": "experiencia",
+        "curriculo": "curriculo",
+        "portifolio": "portifolio"
+      },
+      "dialog_node": "response_6_1691756608794",
+      "previous_sibling": "node_3_1691776377601"
     }
   ],
   "counterexamples": [],

@@ -3,1092 +3,1256 @@
   "type": "dialog",
   "valid": true,
   "counts": {
-    "intents": 17,
-    "entities": 17,
-    "dialog_nodes": 26
+    "intents": 20,
+    "entities": 21,
+    "dialog_nodes": 37
   },
   "status": "Available",
-  "created": "2023-08-10T17:14:43.730Z",
-  "updated": "2023-08-10T17:14:43.730Z",
+  "created": "2023-08-12T01:19:12.655Z",
+  "updated": "2023-08-12T01:19:12.655Z",
   "language": "pt-br",
   "skill_id": "a3e3ff74-8b3d-4146-be50-8a54c18f6057",
-  "snapshot": "3",
+  "snapshot": "15",
   "workspace": {
-    "created": "2023-08-10T17:14:43.730Z",
+    "created": "2023-08-12T01:19:12.655Z",
     "intents": [
       {
         "intent": "ACCENTURE",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Accenture",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "a centure",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "acenture",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Estou interessado em saber mais sobre a ACCENTURE",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Gostaria de ouvir mais informações a respeito da ACCENTURE.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "O que o maycon fazia na Accenture",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Pode me contar mais acerca da ACCENTURE?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia compartilhar detalhes sobre a ACCENTURE",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia me explicar sobre a ACCENTURE?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual a experiência dele na Accenture",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "Sobre a ACCENTURE"
       },
       {
         "intent": "ADEUS",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Adeus",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "bye bye",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ce manda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "goodbye",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "se manda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "simbora",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Tchau",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "te manda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Vai com Deus",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai embora",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai na fé",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai simbora",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vaza",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "very well",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "very welll",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "adeus"
       },
       {
+        "intent": "ajuda",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "examples": [
+          {
+            "text": "cade as opções",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "me mostre o menu",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quero ajuda",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "sobre menu",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "sobre opções",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "socorro, preciso de ajuda",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          }
+        ],
+        "description": "menu"
+      },
+      {
         "intent": "certificações",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "badges",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Certificações",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "certificado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "diplomas",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele tem algum certificado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "maycon possui alguma certificação",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "queria saber sobre suas certificações",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "títulos",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "sobre certificações"
       },
       {
+        "intent": "começar",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "examples": [
+          {
+            "text": "começar",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "de novo",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "recomeçar",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          }
+        ],
+        "description": "começar"
+      },
+      {
         "intent": "contato",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "como faço para entrar em contato com maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "como falo com ele",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele teem e-mail",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele tem mail",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual contato do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual telefone do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual zap do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que hora q ele pode falar comigo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero falar diretamente com maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero falar diretametne com ele",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "para entrar em contato"
       },
       {
         "intent": "Curriculo",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Como posso ver o curriculo do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "curriculo do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele tem linkedim",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "onde posso acessar o curriculo do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual é o curriculo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual é o linkedin dele",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Quero ver o curriculo dele",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Quero ver o linkedin do Maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "Sobre curriculo"
       },
       {
+        "intent": "emojis",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "examples": [
+          {
+            "text": ":",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "emoji",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "isso é um emoji",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          }
+        ],
+        "description": ""
+      },
+      {
         "intent": "experiencia",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "aonde ele trabalhou",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "com o que ele trabalhou",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "onde ele trabalha",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "onde o maycon trabalha",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual é a empresa",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual foi o emprego",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual foi o primeiro emprego",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual foi o ultimo emprego",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que empresa",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "sobre experiencias"
       },
       {
         "intent": "habilidades",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
+            "text": "com o q ele trabalha",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "com o que ele trabalha dia a dia",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
             "text": "o que ele sabe",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que o maycon sabe",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quais ferramentas",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quais linguagens de programação ele usa",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quais linguagens de programa ele atua",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quais são suas ferramentas de trabalho",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quais sao suas habilidades",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quais sao suas skills",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "qual ferramenta",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "que linguagens ele domina",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quero saber as ferramentas q ele usa",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "habilidades"
       },
       {
         "intent": "IBM",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "ele trabalhou na IBM",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Em qual empresa ele está trabalhando agora?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Em que empresa ele se encontra no momento?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Estou interessado em saber mais sobre a IBM.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Gostaria de ouvir mais informações a respeito da IBM.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "i.b.m",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "IBM",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "industrial business machine",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Pode me contar mais acerca da IBM?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia compartilhar detalhes sobre a IBM?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia me explicar sobre a IBM?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual é a companhia onde ele está atualmente atuando?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual é a instituição na qual ele está empregado no presente momento?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Qual é a organização onde ele está atualmente empregado?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qual é o emprego mais recente dele",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "IBM"
       },
       {
         "intent": "NÃO",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "basta",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "cansei",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "chega",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "claro q nao",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "claro que não",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "defitivamente não",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "já basta",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "já deu",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "não",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "não quero mais",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "não quero saber",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "no",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "nop",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "para casos negativos"
       },
       {
         "intent": "NTTDATA",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Estou interessado em saber mais sobre a Everis.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Estou interessado em saber mais sobre a NTT DATA.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Everis",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Gostaria de ouvir mais informações a respeito da Everis.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Gostaria de ouvir mais informações a respeito da NTT DATA.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "NTT DATA",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Pode me contar mais acerca da Everis?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Pode me contar mais acerca da NTT DATA?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia compartilhar detalhes sobre a Everis?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia compartilhar detalhes sobre a NTT DATA?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia me explicar sobre a Everis?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Poderia me explicar sobre a NTT DATA?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "NTTDATA"
       },
       {
         "intent": "Obrigado",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Eu te agradeço",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "gratidão por seu trabalho",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "gratidão por tudo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "muitissimo obrigado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "muito demais da sua parte",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "muito legal de sua parte",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "muito obrigada",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Muito obrigado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "obrigado por tudo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que demais",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vc foi de grande ajuda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "você foi de grande ajdua",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "você foi de grande ajuda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "Sobre agradecimentos"
       },
       {
         "intent": "ofensas",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "bunda mole",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "eu to com muita raiva de vc",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "filho da puta",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "pau no seu cu",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "puta q pariu",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero q se foda",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero q vc morra",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "responde seu idiota",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "seu gay",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "seu veado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "seu viado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "sua bicha",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "sua raba é minha",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai para casa do caralho",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai se foder",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Vai se fuder",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "vai tomar no cu",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "sobre ofensas"
       },
       {
         "intent": "portifólio",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Desejo ter acesso ao portfólio do dele.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele pode provar o seu trabalho?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ele tem alguma coisa para mostrar?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Estou buscando informações sobre o portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Estou interessado em saber mais sobre o portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Eu quero saber do portifólio do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "github",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Gostaria de conhecer o portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "maycon tem github?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Pretendo descobrir mais sobre o portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Quero obter detalhes do portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero ver o github do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Tenho curiosidade em relação ao portfólio do Maycon.",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "Sobre portifólio"
       },
       {
         "intent": "saudação",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "Como vai você?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "cualé",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "hello",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "hey",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "hi",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "oi",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ola",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "olá",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Opa e ai mano?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "qualé",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "Salve salve mestre",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "saudação",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "saudação"
       },
       {
         "intent": "SIM",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "afirmativo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "claro que sim",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "definitivamente",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "ok",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "pode ser",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "positivo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "SIm",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "talves",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "talvez",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "tauvez",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "para casos positivos"
       },
       {
         "intent": "sobreMaycon",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
             "text": "com o que o maycon trabalha",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que é o maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que o maycon é",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que o maycon faz",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quais os cursos que o maycon tem",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quem é maycon?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero alguma informacao do maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quero falar sobre o maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "Sobre o Maycon"
       },
       {
         "intent": "sobrevc",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "examples": [
           {
+            "text": "Com quem estou falando",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
             "text": "me fale sobre você",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "o que é es",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que é você",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que você faz",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "o que você pode fazer",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quem es",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quem é você",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "quem realmente é você",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quem ta ai",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "quem ta falando",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que tipo de bot é você",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que tipo de robo é vc?",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           },
           {
             "text": "que tipo de robo é vocÊ",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z"
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "to falando com alguma coisa",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
+          },
+          {
+            "text": "to falando com quem",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z"
           }
         ],
         "description": "sobre o chatbot"
       }
     ],
-    "updated": "2023-08-10T17:14:43.730Z",
+    "updated": "2023-08-12T01:19:12.655Z",
     "entities": [
       {
         "entity": "ACCENTURE",
@@ -1096,8 +1260,8 @@
           {
             "type": "synonyms",
             "value": "ACCENTURE",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "accenture",
               "a centure",
@@ -1106,8 +1270,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1116,8 +1280,8 @@
           {
             "type": "synonyms",
             "value": "Adeus",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "Adeus",
               "Amém",
@@ -1138,8 +1302,38 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "ajuda",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "ajuda",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
+            "synonyms": [
+              "aguda",
+              "ajuda",
+              "ajude",
+              "botões",
+              "help",
+              "meno",
+              "menu",
+              "mino",
+              "minu",
+              "relp",
+              "reup",
+              "socorro",
+              "sumario",
+              "sumário"
+            ]
+          }
+        ],
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1148,8 +1342,8 @@
           {
             "type": "synonyms",
             "value": "certificações",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "badges",
               "certificações",
@@ -1163,8 +1357,27 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "começar",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "começar",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
+            "synonyms": [
+              "começar",
+              "de novo",
+              "recomeçar"
+            ]
+          }
+        ],
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1173,8 +1386,8 @@
           {
             "type": "synonyms",
             "value": "contato",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "celular",
               "contato",
@@ -1192,8 +1405,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1202,8 +1415,8 @@
           {
             "type": "synonyms",
             "value": "curriculo",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "corriculo",
               "curricolo",
@@ -1224,8 +1437,46 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "dica",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "dicas",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
+            "synonyms": [
+              "conselho",
+              "dica",
+              "dicas",
+              "tip",
+              "tips"
+            ]
+          }
+        ],
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "emojis",
+        "values": [
+          {
+            "type": "patterns",
+            "value": "emojis",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
+            "patterns": [
+              ":\\w+:"
+            ]
+          }
+        ],
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1234,8 +1485,8 @@
           {
             "type": "synonyms",
             "value": "experiência",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "companhias",
               "empregado",
@@ -1243,15 +1494,20 @@
               "emprego",
               "empresas",
               "Experiência",
+              "experiências",
               "job",
+              "onde ele trabalha",
               "quero ver suas experiencias",
               "registro em carteira",
+              "seu trabalho",
+              "skills",
+              "sua empresa",
               "trabalho"
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1260,19 +1516,33 @@
           {
             "type": "synonyms",
             "value": "habilidades",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "abilidades",
               "abilitys",
+              "bash",
+              "deploy",
+              "ferramentas",
               "habilidades",
+              "hard skill",
+              "java",
+              "know how",
+              "linguagens",
+              "linux",
+              "programação",
+              "python",
+              "quais linguagens de programação ele usa",
+              "scrum",
               "skill",
-              "skills"
+              "skills",
+              "soft skill",
+              "tools"
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1281,8 +1551,8 @@
           {
             "type": "synonyms",
             "value": "IBM",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "I.B.M",
               "IBM",
@@ -1291,8 +1561,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1301,29 +1571,29 @@
           {
             "type": "synonyms",
             "value": "Batestin",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": []
           },
           {
             "type": "synonyms",
             "value": "Cypriano",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": []
           },
           {
             "type": "synonyms",
             "value": "Maycon",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": []
           },
           {
             "type": "synonyms",
             "value": "nome",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "batestin",
               "cypriano",
@@ -1334,8 +1604,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1344,8 +1614,8 @@
           {
             "type": "synonyms",
             "value": "nao",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "chega",
               "claro que não",
@@ -1360,8 +1630,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1370,8 +1640,8 @@
           {
             "type": "synonyms",
             "value": "NTTDATA",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "data",
               "everis",
@@ -1383,8 +1653,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1393,8 +1663,8 @@
           {
             "type": "synonyms",
             "value": "Obrigado",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "Agradecido",
               " Agradecimento ",
@@ -1416,8 +1686,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1426,38 +1696,51 @@
           {
             "type": "synonyms",
             "value": "ofensas",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "anus",
               "boceta",
               "buceta",
               "bunda",
               "cacete",
+              "casa do cacete",
               "cu",
               "desgraça",
               "disgraça",
+              "engula minha rola",
+              "esperma",
+              "excitado",
               "fdp",
               "filho da puta",
               "inferno",
+              "lambe",
               "mata",
               "morrer",
               "odio",
               "pau",
+              "pau na",
+              "pau no ",
               "pau no cu",
               "penis",
               "peru",
               "peste",
               "piru",
+              "porra",
+              "porra no",
               "puta q pariu",
               "quero te matar",
               "raiva",
+              "rola",
               "se mata",
+              "semem",
+              "semen",
               "seu caralho",
               "seu veado",
               "seu viado",
               "suicida",
               "suícidio",
+              "tesão",
               "vagina",
               "vai para puta q pariu",
               "vai se foder",
@@ -1466,8 +1749,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1476,8 +1759,8 @@
           {
             "type": "synonyms",
             "value": "portifolio",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "amostras",
               "códigos",
@@ -1492,8 +1775,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1502,8 +1785,8 @@
           {
             "type": "synonyms",
             "value": "saudacao",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "aí",
               "como vai",
@@ -1521,8 +1804,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1531,8 +1814,8 @@
           {
             "type": "synonyms",
             "value": "sim",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "afirmativo",
               "claro",
@@ -1549,8 +1832,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       },
       {
@@ -1559,8 +1842,8 @@
           {
             "type": "synonyms",
             "value": "sobre o bot",
-            "created": "2023-08-10T17:14:44.229Z",
-            "updated": "2023-08-10T17:14:44.229Z",
+            "created": "2023-08-12T01:19:17.822Z",
+            "updated": "2023-08-12T01:19:17.822Z",
             "synonyms": [
               "com quem estou falando",
               "com quem eu falo",
@@ -1585,8 +1868,8 @@
             ]
           }
         ],
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "fuzzy_match": true
       }
     ],
@@ -1594,9 +1877,9 @@
     "metadata": {
       "skill": {
         "counts": {
-          "intents": 17,
-          "entities": 17,
-          "dialog_nodes": 26
+          "intents": 20,
+          "entities": 21,
+          "dialog_nodes": 37
         }
       },
       "api_version": {
@@ -1633,14 +1916,14 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
-          "dialog_node": "node_10_1691614095945"
+          "dialog_node": "node_1_1691711378760"
         },
-        "conditions": "welcome || @saudação || #saudação",
+        "conditions": "welcome || @saudação || #saudação || @começar || #começar",
         "dialog_node": "Bem-vindo"
       },
       {
@@ -1651,13 +1934,13 @@
             {
               "values": [
                 {
-                  "text": "Eu não entendi. Pode repetir a pergunta?"
+                  "text": "Eu não entendi. "
                 },
                 {
-                  "text": "Não compreendi. Pode repetir a pergunta?"
+                  "text": "Não compreendi. "
                 },
                 {
-                  "text": "Essa eu não peguei...Pode repetir a pergunta?"
+                  "text": "Essa eu não peguei."
                 }
               ],
               "response_type": "text",
@@ -1665,11 +1948,16 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
-        "conditions": "anything_else",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691711378760"
+        },
+        "conditions": "anything_else && anything_else",
         "dialog_node": "Em outros casos",
-        "previous_sibling": "node_6_1691677966452",
+        "previous_sibling": "node_1_1691614599247",
         "disambiguation_opt_out": true
       },
       {
@@ -1700,10 +1988,10 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "dialog_node": "node_10_1691614095945",
-        "previous_sibling": "node_6_1691614008413"
+        "previous_sibling": "node_6_1691677966452"
       },
       {
         "type": "standard",
@@ -1734,8 +2022,8 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1744,6 +2032,24 @@
         "conditions": "@Curriculo || #Curriculo",
         "dialog_node": "node_10_1691676276040",
         "previous_sibling": "node_7_1691629745962"
+      },
+      {
+        "type": "standard",
+        "title": "curriculo",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_1_1691756608789",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_10_1691676276040"
+        },
+        "conditions": "$curriculo && @Curriculo",
+        "dialog_node": "node_10_1691776446506",
+        "previous_sibling": "node_17_1691776485803"
       },
       {
         "type": "standard",
@@ -1773,8 +2079,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1801,8 +2107,8 @@
           ]
         },
         "parent": "node_4_1691628964525",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1827,14 +2133,110 @@
           ]
         },
         "parent": "node_1_1691629259023",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "condition",
           "dialog_node": "node_5_1691629385839"
         },
         "dialog_node": "node_1_1691670288673"
+      },
+      {
+        "type": "standard",
+        "title": "dica",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Se tiver alguma dúvida, a qualquer momento de nossa conversa, você pode digitar \"ajuda\" para obter uma lista de opções para te ajudar!"
+                },
+                {
+                  "text": "Se tiver alguma dúvida, a qualquer momento de nossa conversa, você pode digitar \"menu\" para exibir uma lista de opções para você"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_10_1691614095945"
+        },
+        "conditions": "",
+        "dialog_node": "node_1_1691711378760",
+        "previous_sibling": "node_1_1691762177516"
+      },
+      {
+        "type": "frame",
+        "title": "opçõesMenu",
+        "output": {},
+        "parent": "node_4_1691709462515",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "true",
+        "dialog_node": "node_1_1691756608789"
+      },
+      {
+        "type": "standard",
+        "title": "SegundaPergunta",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Algo mais em que posso ajudar?"
+                },
+                {
+                  "text": "Algo mais  que deseja saber?"
+                },
+                {
+                  "text": "Há algo mais em que posso ser útil?"
+                },
+                {
+                  "text": "Há algo mais em que posso servir?"
+                },
+                {
+                  "text": "Há algo mais que gostaria de saber?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "dialog_node": "node_1_1691762177516",
+        "previous_sibling": "node_10_1691614095945"
+      },
+      {
+        "type": "standard",
+        "title": "skill",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_1_1691756608789",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_2_1691628941259"
+        },
+        "conditions": "$skill && @habilidades",
+        "dialog_node": "node_17_1691776485803",
+        "previous_sibling": "node_24_1691776531678"
       },
       {
         "type": "standard",
@@ -1856,15 +2258,16 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
           "dialog_node": "node_4_1691628964525"
         },
         "conditions": "#habilidades || @habilidades && true",
-        "dialog_node": "node_2_1691628941259"
+        "dialog_node": "node_2_1691628941259",
+        "previous_sibling": "node_5_1691629385839"
       },
       {
         "type": "standard",
@@ -1889,8 +2292,8 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1899,6 +2302,24 @@
         "conditions": "@Certificações || #certificações",
         "dialog_node": "node_2_1691678902117",
         "previous_sibling": "node_7_1691678116730"
+      },
+      {
+        "type": "standard",
+        "title": "experiencia",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_1_1691756608789",
+        "context": {},
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_7_1691629745962"
+        },
+        "conditions": "$empresas && @Experiência",
+        "dialog_node": "node_24_1691776531678"
       },
       {
         "type": "standard",
@@ -1925,8 +2346,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1934,7 +2355,7 @@
         },
         "conditions": "#SIM || @SIM",
         "dialog_node": "node_3_1691672584198",
-        "previous_sibling": "node_10_1691614095945"
+        "previous_sibling": "node_9_1691761755895"
       },
       {
         "type": "standard",
@@ -1955,8 +2376,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -1965,6 +2386,24 @@
         "conditions": "#NÃO || @NAO",
         "dialog_node": "node_3_1691672843428",
         "previous_sibling": "node_3_1691672584198"
+      },
+      {
+        "type": "standard",
+        "title": "Portifólio",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_1_1691756608789",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_7_1691678116730"
+        },
+        "conditions": "$portifolio && @portifolio",
+        "dialog_node": "node_3_1691776377601",
+        "previous_sibling": "node_10_1691776446506"
       },
       {
         "type": "standard",
@@ -1983,8 +2422,8 @@
           ]
         },
         "parent": "node_2_1691628941259",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2021,8 +2460,8 @@
           ]
         },
         "parent": "node_7_1691629745962",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "conditions": "true",
         "dialog_node": "node_4_1691629760544"
       },
@@ -2043,8 +2482,8 @@
           ]
         },
         "parent": "node_4_1691629760544",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2053,6 +2492,26 @@
         "conditions": "#IBM || @IBM",
         "dialog_node": "node_4_1691674761636",
         "previous_sibling": "node_5_1691675037393"
+      },
+      {
+        "type": "frame",
+        "title": "titleMENU",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691756608789"
+        },
+        "conditions": "@ajuda || #ajuda && true",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_4_1691709462515",
+        "previous_sibling": "node_7_1691673022215"
       },
       {
         "type": "standard",
@@ -2077,10 +2536,9 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
-        "dialog_node": "node_5_1691629385839",
-        "previous_sibling": "node_2_1691628941259"
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "dialog_node": "node_5_1691629385839"
       },
       {
         "type": "standard",
@@ -2099,8 +2557,8 @@
           ]
         },
         "parent": "node_4_1691629760544",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2126,8 +2584,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2136,7 +2594,7 @@
         "conditions": "@maycon || #sobreMaycon",
         "digress_in": "does_not_return",
         "dialog_node": "node_5_1691678515934",
-        "previous_sibling": "node_7_1691673022215"
+        "previous_sibling": "node_4_1691709462515"
       },
       {
         "type": "standard",
@@ -2160,8 +2618,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2188,8 +2646,8 @@
           ]
         },
         "parent": "node_4_1691629760544",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2229,11 +2687,17 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691711378760"
+        },
         "conditions": "@ofensas || #ofensas",
+        "digress_in": "does_not_return",
         "dialog_node": "node_6_1691677966452",
-        "previous_sibling": "node_1_1691614599247"
+        "previous_sibling": "node_6_1691614008413"
       },
       {
         "type": "standard",
@@ -2243,7 +2707,7 @@
             {
               "values": [
                 {
-                  "text": "Para entrar em contato diretamente com Maycon, por favor envie um e-mail para mayconcypriano@gmail.com"
+                  "text": "Para entrar em contato diretamente com Maycon, por favor envie um e-mail para \"mayconcypriano@gmail.com\""
                 }
               ],
               "response_type": "text",
@@ -2252,8 +2716,8 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2286,8 +2750,8 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2295,7 +2759,7 @@
         },
         "conditions": "@Experiência || #experiencia && true",
         "dialog_node": "node_7_1691629745962",
-        "previous_sibling": "node_5_1691629385839"
+        "previous_sibling": "node_2_1691628941259"
       },
       {
         "type": "standard",
@@ -2319,8 +2783,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "dialog_node": "node_7_1691673022215",
         "previous_sibling": "node_9_1691613355072"
       },
@@ -2344,8 +2808,8 @@
           ]
         },
         "parent": "node_8_1691615142920",
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2377,8 +2841,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "conditions": "@maycon || #sobreMaycon && true",
         "dialog_node": "node_8_1691615142920",
         "previous_sibling": "node_5_1691678515934"
@@ -2420,8 +2884,8 @@
             }
           ]
         },
-        "created": "2023-08-10T17:14:44.229Z",
-        "updated": "2023-08-10T17:14:44.229Z",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
         "next_step": {
           "behavior": "jump_to",
           "selector": "body",
@@ -2430,6 +2894,111 @@
         "conditions": "@Obrigado || #Obrigado",
         "dialog_node": "node_9_1691613355072",
         "previous_sibling": "node_3_1691672843428"
+      },
+      {
+        "type": "standard",
+        "title": "emojions",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Eu não sei entender muito bem emojis..."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1691762177516"
+        },
+        "conditions": "@emojis || #emojis",
+        "dialog_node": "node_9_1691761755895",
+        "previous_sibling": "node_1_1691711378760"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Aqui está uma lista de opções para lhe ajudar"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_4_1691709462515",
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "dialog_node": "response_2_1691756722577",
+        "previous_sibling": "node_1_1691756608789"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "title": "",
+              "options": [
+                {
+                  "label": "Experiências Profissionais",
+                  "value": {
+                    "input": {
+                      "text": "experiencia"
+                    }
+                  }
+                },
+                {
+                  "label": "Skills",
+                  "value": {
+                    "input": {
+                      "text": "skill"
+                    }
+                  }
+                },
+                {
+                  "label": "Currículo",
+                  "value": {
+                    "input": {
+                      "text": "curriculo"
+                    }
+                  }
+                },
+                {
+                  "label": "Portifólio",
+                  "value": {
+                    "input": {
+                      "text": "portifolio"
+                    }
+                  }
+                }
+              ],
+              "description": "",
+              "response_type": "option"
+            }
+          ]
+        },
+        "parent": "node_1_1691756608789",
+        "context": {
+          "skill": "skill",
+          "empresas": "experiencia",
+          "curriculo": "curriculo",
+          "portifolio": "portifolio"
+        },
+        "created": "2023-08-12T01:19:17.822Z",
+        "updated": "2023-08-12T01:19:17.822Z",
+        "dialog_node": "response_6_1691756608794",
+        "previous_sibling": "node_3_1691776377601"
       }
     ],
     "counterexamples": [],
@@ -2446,7 +3015,7 @@
     },
     "learning_opt_out": false
   },
-  "description": "update a entities",
+  "description": "new dialog",
   "assistant_id": "de7e2ef8-3c45-4dca-bf0d-62c0fccec1de",
   "dialog_settings": {
     "source_assistant": "15525841-8633-4f1b-ab0c-a4a61a4b72d0"

@@ -1,0 +1,7 @@
+id,resource_type,locator,translatable_string
+fea76407-694a-41e6-95b4-1e92b4d2d708,EXAMPLE_TEXT,"workspace.intents[intent=""fallback_connect_to_agent""].examples[0].text","""Eu quero contatar um agente/Eu quero entrar em contato com um agente"""
+7cee2c75-400b-4464-a16c-987e32e891d7,EXAMPLE_TEXT,"workspace.intents[intent=""fallback_connect_to_agent""].examples[1].text","""Por favor, você pode entrar em contato comigo com um agente humano?"""
+4b79ada9-9c8f-4808-81cc-d4dbd0d87d9f,EXAMPLE_TEXT,"workspace.intents[intent=""fallback_connect_to_agent""].examples[2].text","""Eu vou falar com um agente/ Eu vou falar com um agente de suporte."""
+8b60ceb0-c438-4426-bb34-926b43b5ad40,EXAMPLE_TEXT,"workspace.intents[intent=""fallback_connect_to_agent""].examples[3].text","""Você pode me conectar com uma pessoa real?"""
+73f9588c-4e09-43d1-ad79-187349bcb7c0,EXAMPLE_TEXT,"workspace.intents[intent=""fallback_connect_to_agent""].examples[4].text","""Preciso contatar a um atendente"""
+1e2e51cc-c457-4046-943a-5a9b3a3314e6,EXAMPLE_TEXT,"workspace.intents[intent=""action_31806_intent_18215""].examples[0].text","""OLÁ"""
