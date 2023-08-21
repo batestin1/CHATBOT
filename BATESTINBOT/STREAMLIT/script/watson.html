@@ -1,27 +1,23 @@
-<!-- watson_chat.html -->
-<style>
-    /* Estilo para centralizar o chatbot */
-    .chatbot-container {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 30vh;
-    }
-  </style>
-  
-  <div class="chatbot-container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batestin Bot - Watson Assistant Chat</title>
+</head>
+<body>
     <script>
-      window.watsonAssistantChatOptions = {
-        integrationID: "63e24f61-3ae5-42dc-90fd-7a61dd4d0870",
-        region: "us-south",
-        serviceInstanceID: "9148eace-be33-47ff-b027-d1c9e6c0e6cd",
-        onLoad: function(instance) { instance.render(); }
-      };
-      setTimeout(function(){
-        const t=document.createElement('script');
-        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-        document.head.appendChild(t);
-      });
+        window.watsonAssistantChatOptions = {
+            integrationID: "60a965ec-37ee-4aa3-b735-0558faf6fb76",
+            region: "us-south",
+            serviceInstanceID: "9148eace-be33-47ff-b027-d1c9e6c0e6cd",
+            onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
     </script>
-  </div>
-  
+</body>
+</html>

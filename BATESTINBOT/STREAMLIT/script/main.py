@@ -1,30 +1,15 @@
 import streamlit as st
+import requests
 
 def main():
-    st.title("Integração com Watson Assistant")
+    st.title("Batestin Bot - Watson Assistant Chat")
 
-    # Carregando o conteúdo HTML do arquivo watson_chat.html
-    with open("C:/Users/Bates/Documents/Repositorios/chatbot/BATESTINBOT/STREAMLIT/script/watson.html", "r") as f:
-        watson_chat_code = f.read()
+    # Definir a URL do servidor Flask
+    flask_server_url = "http://localhost:5000"  # Substitua pelo URL correto se for diferente
 
-    # Exibindo o widget de chat do Watson Assistant
-    st.components.v1.html(watson_chat_code, height=300)
-    st.markdown(
-        f'''
-        <style>
-            body {{
-                background-image: url('C:/Users/Bates/Documents/Repositorios/chatbot/BATESTINBOT/STREAMLIT/assets/wall.jpg');
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-            }}
-        </style>
-        ''',
-        unsafe_allow_html=True
-    )
+    # Exibir o conteúdo do servidor Flask usando o componente de HTML
+    response = requests.get(flask_server_url)
+    st.components.v1.html(response.content, height=700)
 
 if __name__ == "__main__":
     main()
