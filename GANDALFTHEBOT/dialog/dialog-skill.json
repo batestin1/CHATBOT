@@ -1,0 +1,2189 @@
+{
+  "name": "Translator",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 11,
+    "entities": 12,
+    "dialog_nodes": 34
+  },
+  "status": "Available",
+  "created": "2023-08-24T23:54:07.473Z",
+  "updated": "2023-08-24T23:54:07.473Z",
+  "language": "en",
+  "skill_id": "88d78030-0e0d-4880-88ae-a82c5a3c59f3",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2023-08-24T23:54:07.473Z",
+    "intents": [
+      {
+        "intent": "bilboanswer",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "All of them at once, I suppose",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "if bilbo answer was right"
+      },
+      {
+        "intent": "evening",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Good evening",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good evening, everyone",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good evening, friends.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good evening, how are you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good evening, sir/ma'am.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "General_About_You",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "About you",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Can I use another language?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Describe your self",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you have a name?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you know who you are?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How can I configure you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How do you function?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How old are you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Introduce your self",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I want to set up the chat bot for my shop",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Let us talk about you",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me about your life",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me something about yourself",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What languages do you speak?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What should I know about you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What's your name?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Where are you from?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Where were you born?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Who are you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Why are you here?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "Request generic personal attributes."
+      },
+      {
+        "intent": "General_Agent_Capabilities",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Can you please give me a list of the types of things you can help me with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "helpme",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  23,
+                  52
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Can you tell me what services you are able to help me with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "helpme",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  16,
+                  33
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Do you have a list of things I can talk to you about?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Help now",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "helpme",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  0,
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Hi, what do you do?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How can I use you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How can you help me?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How can you solve my problems?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How do I use you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I'd like to know what type of questions you can answer for me.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I do not know what to ask",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Is there anything you can help me with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me about what kind of things you do?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me something",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are my options?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are my options that you can help with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are you able to deal with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are you able to understand?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are you capable of?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are you good at?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are your skills?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What are you used for?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What can I ask you to do?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What do you do?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What do you handle?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What else can you help me with?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What features are in here?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What is this 4?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What kinds of things can you do?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Where can I find the frequently asked questions?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "Request capabilities of the bot."
+      },
+      {
+        "intent": "General_Human_or_Bot",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Am I chatting with a human?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Am I talking to a Bot?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Am I talking to a person or am I talking to an AI?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Am I talking to Watson?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are you a human or a bot?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are you a robot?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are you even real?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are you human?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are you real?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "How can you prove you are a human?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Is this a computer?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me, are you a human or no?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "Ask if speaking to a human or a bot."
+      },
+      {
+        "intent": "General_Jokes",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Another joke",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Are there jokes?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Can you tell a joke?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Can you tell me a joke?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you have a joke?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you have humor?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you like fun?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Do you like humor?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I am getting bored",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I'm bored",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "I want a joke",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "One more joke",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Surprise me with something hilarious",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me a joke",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Tell me something funny",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What do you do for fun?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "What is your favorite joke?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "Request a joke."
+      },
+      {
+        "intent": "GoodAfternoon",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Hello! How's the afternoon treating you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "\"Hey! Afternoon!\" \"",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Hi there! Good arvo!",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Sup? Afternoon!",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "\"Yo! Afternoon vibes!",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "Good Afternoon"
+      },
+      {
+        "intent": "GoodMorning",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Good Morning",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good morning, everyone",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good morning, friends",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good morning, how are you?",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good morning,ma'am",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Good morning, sir",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "have a nice day",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "good morning"
+      },
+      {
+        "intent": "nigth",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "Catch you in the morning",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Night",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Nighty night",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Sleep well",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Sweet dreams",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "userName",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "I'm Maycon",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "username",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  4,
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "text": "My name is Gustavo",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "username",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  11,
+                  18
+                ]
+              }
+            ]
+          },
+          {
+            "text": "My real name is Alberta",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "username",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  16,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "text": "yes, my name is",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "You can call me Dorival",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "username",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  16,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "text": "You should call me Jessica",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "mentions": [
+              {
+                "entity": "username",
+                "created": "2023-08-24T23:54:10.480Z",
+                "updated": "2023-08-24T23:54:10.480Z",
+                "location": [
+                  19,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "description": "userName"
+      },
+      {
+        "intent": "wisdow",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "examples": [
+          {
+            "text": "A wisdom today",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Bestow upon me your enlightenment.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Bless me with your guidance.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Confer your understanding upon me",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Endow me with your profound insights",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Gift me your treasure trove of wisdom.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "give me a tip",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "give me a tips",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "give me your wisdom",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Grace me with your seasoned judgment.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Grant me your experienced perspective.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Illuminate me with your brilliance.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Impart your knowledge to me.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Offer me your discerning viewpoint",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Offer me your sagacity.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Provide me with your expert advice",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Share your insights with me.",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          },
+          {
+            "text": "Share your pearls of wisdom with me",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z"
+          }
+        ],
+        "description": "wisdow"
+      }
+    ],
+    "updated": "2023-08-24T23:54:07.473Z",
+    "entities": [
+      {
+        "entity": "aboutbot",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "about a bot",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "assistant virtual",
+              "bot",
+              "chatbot",
+              "Gandalf",
+              "Gandalf, the bot",
+              "Guess who?",
+              "How can I call you",
+              "how can I name you?",
+              "Incánus",
+              "Mithrandir",
+              "Olórin",
+              "tell me about you",
+              "Tharkûn",
+              "virtual assistant",
+              "What is you?",
+              "what`s you?",
+              "whats your name",
+              "Who are you?",
+              "Who is Gandalf",
+              "your name"
+            ]
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "bilboanswer",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "All of them at once, I suppose",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "All of them at once, I suppose"
+            ]
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "greetings",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "good afternoon",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "After noon",
+              "Afternoon",
+              "afternoon tea",
+              "Dawn",
+              "Good Afternoon",
+              "Good arvo",
+              "Hey! Afternoon"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "good evening",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "Evening",
+              "Evenning",
+              "Evining",
+              "Good Evening"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "good morning",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "Beautiful Day",
+              "Good Day",
+              "Good Evening",
+              "have a nice day",
+              "Morning"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "good night",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "Good Night",
+              "Night",
+              "Nighty",
+              "Nite"
+            ]
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "helpme",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "a list of the types of things",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "helpme",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "help",
+              "Help me",
+              "helpme",
+              "heupe me"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Help now",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "what services you",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "init",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "greetings",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "Aloha ",
+              "Greetings ",
+              "hello",
+              "Hey ",
+              "Hey there",
+              "hi",
+              " Hi again ",
+              "Hi, buddy ",
+              "Hi, colleague",
+              "Hi, friend ",
+              "Hi, how are you? ",
+              "Hi, how's it going? ",
+              " Hi, mate ",
+              "Hi, pal",
+              "Hi there ",
+              "Hi, what's new? ",
+              "Hiya ",
+              "how are you",
+              "Howdy ",
+              "it's nice to meet you",
+              "What's up ",
+              "yeap",
+              "Yo "
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "start",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "re start",
+              "/start",
+              "start"
+            ]
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "sys-currency",
+        "values": [],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z"
+      },
+      {
+        "entity": "sys-date",
+        "values": [],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z"
+      },
+      {
+        "entity": "sys-number",
+        "values": [],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z"
+      },
+      {
+        "entity": "sys-percentage",
+        "values": [],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z"
+      },
+      {
+        "entity": "sys-time",
+        "values": [],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z"
+      },
+      {
+        "entity": "username",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Alberta",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Dorival",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Gustavo",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Jessica",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "John",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Liam",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Maycon",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Ricardo",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "wisdow",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "wisdom",
+            "created": "2023-08-24T23:54:10.480Z",
+            "updated": "2023-08-24T23:54:10.480Z",
+            "synonyms": [
+              "Acumen",
+              "advice",
+              "Astuteness",
+              "Cleverness",
+              "Depth",
+              "Discernment",
+              "Enlightenment",
+              " Experience ",
+              "Expertise",
+              "Foresight",
+              "give me some advice",
+              "give me your wisdom",
+              "Insight ",
+              "Intelligence",
+              "Judgement ",
+              "Knowledge ",
+              " Prudence",
+              "Reasoning",
+              "Sagacity ",
+              "Shrewdness",
+              "tips",
+              "Understanding",
+              "widow",
+              "wisdom",
+              "wisdomn",
+              "wisdomw",
+              "wisdon",
+              "wise",
+              "wise up"
+            ]
+          }
+        ],
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 11,
+          "entities": 12,
+          "dialog_nodes": 34
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "from-sample": true
+    },
+    "webhooks": [
+      {
+        "url": "",
+        "name": "main_webhook",
+        "headers": []
+      }
+    ],
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_3_1692888122741",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "values": [],
+              "response_type": "text"
+            }
+          ]
+        },
+        "parent": "slot_3_1692890333351",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "event_name": "focus",
+        "dialog_node": "handler_10_1692890333352",
+        "previous_sibling": "handler_5_1692890333352"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_10_1692919300700",
+        "context": {
+          "username": "@username"
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@username",
+        "event_name": "input",
+        "dialog_node": "handler_10_1692919300710"
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": []
+        },
+        "parent": "slot_10_1692919300700",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "event_name": "focus",
+        "dialog_node": "handler_3_1692919300710",
+        "previous_sibling": "handler_10_1692919300710"
+      },
+      {
+        "type": "event_handler",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Nice to meet you $username"
+                },
+                {
+                  "text": "It`s very nice to meet you $username"
+                },
+                {
+                  "text": "$username ... It's a name I'll remember!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "slot_10_1692919300700",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "$username || @username || #userName",
+        "event_name": "filled",
+        "dialog_node": "handler_4_1692919349057",
+        "previous_sibling": "handler_3_1692919300710"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_3_1692890333351",
+        "context": {
+          "greetings": "@greetings"
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@greetings",
+        "event_name": "input",
+        "dialog_node": "handler_5_1692890333352"
+      },
+      {
+        "type": "standard",
+        "title": "\"All of them at once, I suppose\"",
+        "output": {},
+        "parent": "node_4_1692890371806",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "conditions": "$greetings",
+        "dialog_node": "node_10_1692893113526"
+      },
+      {
+        "type": "standard",
+        "title": "wisdowtips",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "*All good things that exist are the fruits of originality.*"
+                },
+                {
+                  "text": "*The greatest courage is born from understanding one's own weakness.*"
+                },
+                {
+                  "text": "*Sometimes, the wisest choice is not to choose*"
+                },
+                {
+                  "text": "*Even the smallest person can change the course of the future*"
+                },
+                {
+                  "text": "*Often, even the wisest cannot foresee all ends*"
+                },
+                {
+                  "text": "*The journey is just as important as the destination*\n"
+                },
+                {
+                  "text": "*Not all those who wander are lost*\n"
+                },
+                {
+                  "text": "*The light shines in unexpected places*"
+                },
+                {
+                  "text": "*Wisdom begins in humility*"
+                },
+                {
+                  "text": "*Those who do not learn from the past are doomed to repeat it*"
+                },
+                {
+                  "text": "*Truth is often a double-edged arrow*"
+                },
+                {
+                  "text": "*Fear is not an evil in itself, but something to be tamed*"
+                },
+                {
+                  "text": "*Great power comes with great responsibility*"
+                },
+                {
+                  "text": "*Patience is a virtue few possess*"
+                },
+                {
+                  "text": "*It is not what we have, but what we do with what we have, that matters*"
+                },
+                {
+                  "text": "*Fate is woven on a loom no man can fully comprehend*"
+                },
+                {
+                  "text": "*Darkness cannot drive out darkness; only light can do that*"
+                },
+                {
+                  "text": "*The mind must be free to see the possibilities*"
+                },
+                {
+                  "text": "*Clutching to the past can harm the present and the future*"
+                },
+                {
+                  "text": "*Strength lies in teamwork, not the isolated individual*"
+                },
+                {
+                  "text": "*Gentle hearts are the rarest jewels*"
+                },
+                {
+                  "text": "*Love is a force more powerful than any magic*"
+                },
+                {
+                  "text": "*The pursuit of truth requires courage and determination*"
+                },
+                {
+                  "text": "*Change is inevitable, but we can choose how to respond to it*"
+                },
+                {
+                  "text": "*Silence too can hold great wisdom*"
+                },
+                {
+                  "text": "*Greed and unchecked ambition can lead to destruction*"
+                },
+                {
+                  "text": "*Respect for nature reflects respect for ourselves*"
+                },
+                {
+                  "text": "*Hasty judgment can blind us to the true nature of things*"
+                },
+                {
+                  "text": "*Knowledge is not enough; it's wisdom that matters*"
+                },
+                {
+                  "text": "*Even shadows have something to teach*"
+                },
+                {
+                  "text": "*True courage is facing the darkness within ourselves*"
+                },
+                {
+                  "text": "*Sometimes, the greatest battles are fought within the mind*"
+                },
+                {
+                  "text": "*Hope is a light that must never be extinguished*"
+                },
+                {
+                  "text": "*The past is a tapestry from which we can learn valuable lessons*"
+                },
+                {
+                  "text": "*Freedom is a right that must be guarded with responsibility*\n"
+                },
+                {
+                  "text": "*Wisdom comes from reflection, not impulsiveness*"
+                },
+                {
+                  "text": "*The journey of self-discovery is the deepest of all*"
+                },
+                {
+                  "text": "*Every choice we make shapes our destiny*"
+                },
+                {
+                  "text": "*Knowledge is like a seed that needs cultivation to grow*"
+                },
+                {
+                  "text": "*Tolerance and understanding are the foundations of peace*"
+                },
+                {
+                  "text": "*The wounds of the past can be healed with the passage of time*"
+                },
+                {
+                  "text": "*Joy is found in life's simplest things*"
+                },
+                {
+                  "text": "*Courage lies in moving forward even when all seems lost*"
+                },
+                {
+                  "text": "*The unity of different peoples is a source of great power*"
+                },
+                {
+                  "text": "*Humility is the first step toward true greatness*"
+                },
+                {
+                  "text": "*A true leader serves those who follow*"
+                },
+                {
+                  "text": "*Life is filled with challenges, but also with opportunities*"
+                },
+                {
+                  "text": "*True wealth lies in experiences shared with others*"
+                },
+                {
+                  "text": "*Optimism is a force that can overcome adversity*"
+                },
+                {
+                  "text": "*The future is shaped by the actions of the present*"
+                },
+                {
+                  "text": "*When in doubt, always trust your nose.*"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_4_1692906087872",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "dialog_node": "node_1_1692906664844"
+      },
+      {
+        "type": "standard",
+        "title": "\"All of them at once, I suppose\" ",
+        "output": {},
+        "parent": "node_4_1692890347185",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "conditions": "$greetings",
+        "dialog_node": "node_13_1692893135225"
+      },
+      {
+        "type": "standard",
+        "title": "Warning1",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Well, at any time during our conversation you can type **help me** and a menu of options will be shown to you"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "dialog_node": "node_2_1692917423963",
+        "previous_sibling": "node_6_1692917939026"
+      },
+      {
+        "type": "frame",
+        "title": "greetingsDayOrNight",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "@greetings && true",
+        "dialog_node": "node_3_1692888122741",
+        "previous_sibling": "node_4_1692907552123"
+      },
+      {
+        "type": "standard",
+        "title": "Helpme",
+        "output": {
+          "generic": [
+            {
+              "title": "You requested my help and here is the list of things I can do?",
+              "options": [
+                {
+                  "label": "Translate",
+                  "value": {
+                    "input": {
+                      "text": "translate"
+                    }
+                  }
+                },
+                {
+                  "label": "Wisdow",
+                  "value": {
+                    "input": {
+                      "text": "wisdow"
+                    }
+                  }
+                },
+                {
+                  "label": "Maps",
+                  "value": {
+                    "input": {
+                      "text": "maps"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@helpme || #General_Agent_Capabilities",
+        "dialog_node": "node_3_1692920210167",
+        "previous_sibling": "node_2_1692917423963"
+      },
+      {
+        "type": "standard",
+        "title": "night",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "What do you mean? Do you wish me a good night, or mean that it is a good night whether I want it or not; or that you feel good on this night; or that it is a night to be good on?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1692888122741",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@greetings:(good night) && #nigth && true",
+        "dialog_node": "node_4_1692890347185"
+      },
+      {
+        "type": "standard",
+        "title": "day",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "What do you mean? Do you wish me a good day, or mean that it is a good day whether I want it or not; or that you feel good on this day; or that it is a day to be good on?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1692888122741",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@greetings:(good morning) && #GoodMorning && true",
+        "dialog_node": "node_4_1692890365271",
+        "previous_sibling": "node_6_1692890355584"
+      },
+      {
+        "type": "standard",
+        "title": "afternoon",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "What do you mean? Do you wish me a good afternoon, or mean that it is a good afternoon whether I want it or not; or that you feel good on this afternoon; or that it is an afternoon to be good on?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1692888122741",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@greetings:(good afternoon) || #GoodAfternoon && true",
+        "dialog_node": "node_4_1692890371806",
+        "previous_sibling": "node_4_1692890365271"
+      },
+      {
+        "type": "standard",
+        "title": "wisdow",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here's something I've learned along my wanderings:"
+                },
+                {
+                  "text": "Here is something I learned across the wilds:"
+                },
+                {
+                  "text": "Over the course of an Age, I learned a few things like this:"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_1_1692906664844"
+        },
+        "conditions": "@wisdow || #wisdow || $wisdow",
+        "dialog_node": "node_4_1692906087872",
+        "previous_sibling": "node_3_1692920210167"
+      },
+      {
+        "type": "standard",
+        "title": "Question2",
+        "output": {
+          "generic": [
+            {
+              "title": "Now that we've made that clear, what can I do for you?",
+              "options": [
+                {
+                  "label": "Translate",
+                  "value": {
+                    "input": {
+                      "text": "translate"
+                    }
+                  }
+                },
+                {
+                  "label": "Wisdow",
+                  "value": {
+                    "input": {
+                      "text": "wisdow"
+                    }
+                  }
+                },
+                {
+                  "label": "Maps",
+                  "value": {
+                    "input": {
+                      "text": "maps"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "dialog_node": "node_4_1692907552123",
+        "previous_sibling": "node_4_1692906087872"
+      },
+      {
+        "type": "standard",
+        "title": "evening",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "What do you mean? Do you wish me a good evening, or mean that it is a good evening whether I want it or not; or that you feel good on this evening; or that it is an evening to be good on?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1692888122741",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@greetings:(good evening) && #evening && true",
+        "dialog_node": "node_6_1692890355584",
+        "previous_sibling": "node_4_1692890347185"
+      },
+      {
+        "type": "standard",
+        "title": "\"All of them at once, I suppose\" ",
+        "parent": "node_4_1692890365271",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "conditions": "$greetings",
+        "dialog_node": "node_6_1692892518965"
+      },
+      {
+        "type": "standard",
+        "title": "UserName",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "And what should I call you?"
+                },
+                {
+                  "text": "And what would your name be?"
+                },
+                {
+                  "text": "And do you have a name we can talk to?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": false
+          }
+        },
+        "conditions": "",
+        "dialog_node": "node_6_1692917939026",
+        "previous_sibling": "node_8_1692917353388"
+      },
+      {
+        "type": "frame",
+        "title": "answerName",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_6_1692917939026",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_2_1692917423963"
+        },
+        "conditions": "true",
+        "dialog_node": "node_6_1692918950758"
+      },
+      {
+        "type": "standard",
+        "title": "\"All of them at once, I suppose\"",
+        "output": {},
+        "parent": "node_6_1692890355584",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_4_1692907552123"
+        },
+        "conditions": "$greetings",
+        "dialog_node": "node_7_1692893084667"
+      },
+      {
+        "type": "standard",
+        "title": "About a bot",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm have many names, but you can call me Gandalf, the bot!"
+                },
+                {
+                  "text": " I bear many titles, yet Gandalf is a name that suits this encounter. I am also your conversational guide through the digital realm"
+                },
+                {
+                  "text": "Names have been attributed to me through the ages, but for now, Gandalf shall suffice. I'm here to assist as Gandalf, the virtual sage!"
+                },
+                {
+                  "text": "Throughout time, I've been known by different names, but for our discourse, let Gandalf, the AI conjurer, be one of them!"
+                },
+                {
+                  "text": "Names change like the wind, and today, I am Gandalf, your AI companion on this journey!"
+                },
+                {
+                  "text": "In various tales, I've answered to different names, yet today, you may know me as Gandalf, your virtual guide and companion."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_6_1692917939026"
+        },
+        "conditions": "@aboutbot || #General_About_You",
+        "dialog_node": "node_8_1692917353388",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1692893113526",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer",
+        "dialog_node": "response_11_1692893113528"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Very well, I suppose a $greetings to you too!"
+                },
+                {
+                  "text": "Indeed! A $greetings to you too!"
+                },
+                {
+                  "text": "Alright then, may you have a nice $greetings too!"
+                },
+                {
+                  "text": "I assume that your intents are same then my, so $greetings for you too!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_10_1692893113526",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+        "dialog_node": "response_12_1692893113528",
+        "previous_sibling": "response_11_1692893113528"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_13_1692893135225",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer",
+        "dialog_node": "response_14_1692893135226"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Very well, I suppose a $greetings to you too!"
+                },
+                {
+                  "text": "Indeed! A $greetings to you too!"
+                },
+                {
+                  "text": "Alright then, may you have a nice $greetings too!"
+                },
+                {
+                  "text": "I assume that your intents are same then my, so $greetings for you too!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_13_1692893135225",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+        "dialog_node": "response_15_1692893135226",
+        "previous_sibling": "response_14_1692893135226"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Very well, I suppose a $greetings to you too!"
+                },
+                {
+                  "text": "Indeed! A $greetings to you too!"
+                },
+                {
+                  "text": "Alright then, may you have a nice $greetings too!"
+                },
+                {
+                  "text": "I assume that your intents are same then my, so $greetings for you too!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_6_1692892518965",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+        "dialog_node": "response_3_1692892615312",
+        "previous_sibling": "response_7_1692892597381"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_6_1692892518965",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer",
+        "dialog_node": "response_7_1692892597381"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_7_1692893084667",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer",
+        "dialog_node": "response_8_1692893084669"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Very well, I suppose a $greetings to you too!"
+                },
+                {
+                  "text": "Indeed! A $greetings to you too!"
+                },
+                {
+                  "text": "Alright then, may you have a nice $greetings too!"
+                },
+                {
+                  "text": "I assume that your intents are same then my, so $greetings for you too!"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_7_1692893084667",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+        "dialog_node": "response_9_1692893084669",
+        "previous_sibling": "response_8_1692893084669"
+      },
+      {
+        "type": "slot",
+        "output": {},
+        "parent": "node_6_1692918950758",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "variable": "$username",
+        "dialog_node": "slot_10_1692919300700"
+      },
+      {
+        "type": "slot",
+        "parent": "node_3_1692888122741",
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "variable": "$greetings",
+        "dialog_node": "slot_3_1692890333351",
+        "previous_sibling": "node_4_1692890371806"
+      },
+      {
+        "type": "frame",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello, "
+                },
+                {
+                  "text": "Hi,"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2023-08-24T23:54:10.480Z",
+        "updated": "2023-08-24T23:54:10.480Z",
+        "metadata": {
+          "_customization": {
+            "mcr": false
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "body",
+          "dialog_node": "node_8_1692917353388"
+        },
+        "conditions": "welcome || @init",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "nlp": {
+        "model": "beta"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "",
+  "assistant_id": "c641871c-5c39-4384-b05b-8136d99d9caf",
+  "dialog_settings": {
+    "source_assistant": "b96343c3-5bcb-4b01-87cf-4d1fca810591"
+  },
+  "assistant_references": [
+    {
+      "name": "Gandalf, The Bot",
+      "assistant_id": "b96343c3-5bcb-4b01-87cf-4d1fca810591",
+      "skill_reference": "main skill"
+    }
+  ]
+}

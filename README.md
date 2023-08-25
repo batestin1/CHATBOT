@@ -20,3 +20,4 @@ Name	                                                                        |  
 <a href="https://github.com/batestin1/CHATBOT/tree/main/CINEBOT">  CINEBOT  				            | <p> This is a chatbot to show and reveal informations about Movies </p>   |
 <a href="https://github.com/batestin1/CHATBOT/tree/main/BATESTINBOT">  BATESTIN BOT  				            | <p> This is a chatbot to show and reveal informations about profile linkedin </p>   |
 <a href="https://github.com/batestin1/CHATBOT/tree/main/CHATBOTYODA">  CHATBOT YODA  				            | <p> This is a chatbot who use NLU to process message and translate for Yodish </p>   |
+<a href="https://github.com/batestin1/CHATBOT/tree/main/GANDALFTHEBOT">  GANDALF, THE BOT  				            | <p> This is a chatbot who use NLU to process message and querys to a puzzle about Lord of The Rings </p>  

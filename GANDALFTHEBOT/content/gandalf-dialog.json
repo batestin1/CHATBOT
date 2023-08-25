@@ -1,0 +1,2784 @@
+{
+  "intents": [
+    {
+      "intent": "angry",
+      "examples": [
+        {
+          "text": "Ah fuck"
+        },
+        {
+          "text": "bugger off"
+        },
+        {
+          "text": "fuck off"
+        },
+        {
+          "text": "get away from me"
+        },
+        {
+          "text": "go fuck yourself"
+        },
+        {
+          "text": "golly gee"
+        },
+        {
+          "text": "Go to hell motherfuck"
+        },
+        {
+          "text": "i hate you"
+        },
+        {
+          "text": "insulted"
+        },
+        {
+          "text": "I wanna fuck you"
+        },
+        {
+          "text": "i wanna kill you"
+        },
+        {
+          "text": "I wanna rape you"
+        },
+        {
+          "text": "motherfuck"
+        },
+        {
+          "text": "Nice tits"
+        },
+        {
+          "text": "piss off"
+        },
+        {
+          "text": "shucks"
+        },
+        {
+          "text": "son of a bitch"
+        },
+        {
+          "text": "Stop being an asshole!"
+        },
+        {
+          "text": "stupid bot"
+        },
+        {
+          "text": "the asshole"
+        },
+        {
+          "text": "The bastard"
+        },
+        {
+          "text": "you are a asshole"
+        },
+        {
+          "text": "you are a bastard"
+        },
+        {
+          "text": "you are very stupid"
+        },
+        {
+          "text": "you idiot"
+        },
+        {
+          "text": "You motherfucker"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "audiobook",
+      "examples": [
+        {
+          "text": "audiobook"
+        },
+        {
+          "text": "can you read the story for me?"
+        },
+        {
+          "text": "can you show me a story about you?"
+        },
+        {
+          "text": "Do you read Lord of The Ring?"
+        },
+        {
+          "text": "Tell me a story"
+        },
+        {
+          "text": "what the story is about?"
+        }
+      ],
+      "description": "audiobook"
+    },
+    {
+      "intent": "bilboanswer",
+      "examples": [
+        {
+          "text": "All of them at once, I suppose"
+        }
+      ],
+      "description": "if bilbo answer was right"
+    },
+    {
+      "intent": "evening",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good evening, everyone"
+        },
+        {
+          "text": "Good evening, friends."
+        },
+        {
+          "text": "Good evening, how are you?"
+        },
+        {
+          "text": "Good evening, sir/ma'am."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?",
+          "mentions": [
+            {
+              "entity": "helpme",
+              "location": [
+                23,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?",
+          "mentions": [
+            {
+              "entity": "helpme",
+              "location": [
+                16,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now",
+          "mentions": [
+            {
+              "entity": "helpme",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "GoodAfternoon",
+      "examples": [
+        {
+          "text": "Hello! How's the afternoon treating you?"
+        },
+        {
+          "text": "\"Hey! Afternoon!\" \""
+        },
+        {
+          "text": "Hi there! Good arvo!"
+        },
+        {
+          "text": "Sup? Afternoon!"
+        },
+        {
+          "text": "\"Yo! Afternoon vibes!"
+        }
+      ],
+      "description": "Good Afternoon"
+    },
+    {
+      "intent": "GoodMorning",
+      "examples": [
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Good morning, everyone"
+        },
+        {
+          "text": "Good morning, friends"
+        },
+        {
+          "text": "Good morning, how are you?"
+        },
+        {
+          "text": "Good morning,ma'am"
+        },
+        {
+          "text": "Good morning, sir"
+        },
+        {
+          "text": "have a nice day"
+        }
+      ],
+      "description": "good morning"
+    },
+    {
+      "intent": "maps",
+      "examples": [
+        {
+          "text": "Can I see a map that displays Ardar",
+          "mentions": [
+            {
+              "entity": "maps",
+              "location": [
+                30,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I see a map that displays Beleriand",
+          "mentions": [
+            {
+              "entity": "maps",
+              "location": [
+                30,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I see a map that displays Lord of The Ring",
+          "mentions": [
+            {
+              "entity": "maps",
+              "location": [
+                30,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I see a map that displays Middle-earth?",
+          "mentions": [
+            {
+              "entity": "maps",
+              "location": [
+                21,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I see a map that displays Mordor",
+          "mentions": [
+            {
+              "entity": "maps",
+              "location": [
+                30,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I see a map that displays Numenor"
+        },
+        {
+          "text": "Can you provide me with a map so I can inspect the regions of Middle-earth?"
+        },
+        {
+          "text": "Could you show me a map featuring the geography of Middle-earth?"
+        },
+        {
+          "text": "Could you show me a map for surveying the expanse of Middle-earth?"
+        },
+        {
+          "text": "I'd like to check out a map that illustrates how Middle-earth is laid out."
+        },
+        {
+          "text": "I'd like to view a map of Ardar"
+        },
+        {
+          "text": "I'd like to view a map of Bereliand"
+        },
+        {
+          "text": "I'd like to view a map of Erebor"
+        },
+        {
+          "text": "I'd like to view a map of Lord of The Rings"
+        },
+        {
+          "text": "I'd like to view a map of Middle-earth."
+        },
+        {
+          "text": "I'd like to view a map of Mordor"
+        },
+        {
+          "text": "I'd like to view a map of Numenor"
+        },
+        {
+          "text": "I'd like to view a map of Valinor"
+        },
+        {
+          "text": "I'm interested in seeing a map to navigate through the lands of Middle-earth."
+        },
+        {
+          "text": "I'm keen on examining a map that showcases the topography of Middle-earth."
+        },
+        {
+          "text": "Is it possible to have a look at a map depicting Middle-earth?"
+        },
+        {
+          "text": "want to visualize the layout of Middle-earth on a map."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "nigth",
+      "examples": [
+        {
+          "text": "Catch you in the morning"
+        },
+        {
+          "text": "Night"
+        },
+        {
+          "text": "Nighty night"
+        },
+        {
+          "text": "Sleep well"
+        },
+        {
+          "text": "Sweet dreams"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "riddle",
+      "examples": [
+        {
+          "text": "Are you interested in joining us for a game of charades?"
+        },
+        {
+          "text": "\"Could we play a game of charades?\""
+        },
+        {
+          "text": "Have you thought about playing charades as an option for fun?"
+        },
+        {
+          "text": "\"How about playing a round of charades?\""
+        },
+        {
+          "text": "I want to play charades!"
+        },
+        {
+          "text": "I want to play puzzle"
+        },
+        {
+          "text": "I want to play riddles"
+        },
+        {
+          "text": "Who's excited to play charades? I know I am!"
+        },
+        {
+          "text": "Would anyone be up for a game of charades?"
+        },
+        {
+          "text": "\"Would you like to play a game of charades?\""
+        }
+      ],
+      "description": "I want to play charades!"
+    },
+    {
+      "intent": "userName",
+      "examples": [
+        {
+          "text": "I'm Maycon",
+          "mentions": [
+            {
+              "entity": "username",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Gustavo",
+          "mentions": [
+            {
+              "entity": "username",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My real name is Alberta",
+          "mentions": [
+            {
+              "entity": "username",
+              "location": [
+                16,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "yes, my name is"
+        },
+        {
+          "text": "You can call me Dorival",
+          "mentions": [
+            {
+              "entity": "username",
+              "location": [
+                16,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "You should call me Jessica",
+          "mentions": [
+            {
+              "entity": "username",
+              "location": [
+                19,
+                26
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "userName"
+    },
+    {
+      "intent": "wisdow",
+      "examples": [
+        {
+          "text": "A wisdom today"
+        },
+        {
+          "text": "Bestow upon me your enlightenment."
+        },
+        {
+          "text": "Bless me with your guidance."
+        },
+        {
+          "text": "Confer your understanding upon me"
+        },
+        {
+          "text": "Endow me with your profound insights"
+        },
+        {
+          "text": "Gift me your treasure trove of wisdom."
+        },
+        {
+          "text": "give me a tip"
+        },
+        {
+          "text": "give me a tips"
+        },
+        {
+          "text": "give me your wisdom"
+        },
+        {
+          "text": "Grace me with your seasoned judgment."
+        },
+        {
+          "text": "Grant me your experienced perspective."
+        },
+        {
+          "text": "Illuminate me with your brilliance."
+        },
+        {
+          "text": "Impart your knowledge to me."
+        },
+        {
+          "text": "Offer me your discerning viewpoint"
+        },
+        {
+          "text": "Offer me your sagacity."
+        },
+        {
+          "text": "Provide me with your expert advice"
+        },
+        {
+          "text": "Share your insights with me."
+        },
+        {
+          "text": "Share your pearls of wisdom with me"
+        }
+      ],
+      "description": "wisdow"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "aboutbot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "about a bot",
+          "synonyms": [
+            "assistant virtual",
+            "bot",
+            "chatbot",
+            "Gandalf",
+            "Gandalf, the bot",
+            "Guess who?",
+            "How can I call you",
+            "how can I name you?",
+            "Incánus",
+            "Mithrandir",
+            "Olórin",
+            "tell me about you",
+            "Tharkûn",
+            "virtual assistant",
+            "What is you?",
+            "what`s you?",
+            "whats your name",
+            "Who are you?",
+            "Who is Gandalf",
+            "your name"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "angry",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "angry",
+          "synonyms": [
+            "angry",
+            "anus",
+            "Are you taking the piss",
+            "arse",
+            " arsehole",
+            "ashole",
+            "ass",
+            "ass-hat",
+            "asshole",
+            "Bell",
+            "Bellend",
+            "bloody brilliant",
+            "Bloody Hell",
+            "bloody moron",
+            "Bollocks",
+            "Bugger",
+            "butt ",
+            "choad",
+            "Crikey",
+            "cum",
+            "damn",
+            "fuck",
+            "go fuck yourself",
+            "go to hell",
+            "hell",
+            "idiot",
+            "masturbator",
+            "motherfuck",
+            "penis.",
+            "pussy",
+            "Rubbish",
+            "Shag",
+            "shitface",
+            "stupid",
+            "suicide",
+            "Taking the piss",
+            "testicles",
+            "the end of the penis",
+            "to be drunk",
+            "to masturbate",
+            "vagina",
+            "vagine",
+            "you are shit"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "audiobook",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "audiobook",
+          "synonyms": [
+            "audio",
+            "audio book",
+            "audiobook",
+            "audiobooks",
+            "book",
+            "tell me a story"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bilboanswer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "All of them at once, I suppose",
+          "synonyms": [
+            "All of them at once, I suppose"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "correct",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "correct",
+          "synonyms": [
+            "correct"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": [
+            "After noon",
+            "Afternoon",
+            "afternoon tea",
+            "Dawn",
+            "Good Afternoon",
+            "Good arvo",
+            "Hey! Afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": [
+            "Evening",
+            "Evenning",
+            "Evining",
+            "Good Evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "Beautiful Day",
+            "Good Day",
+            "Good Evening",
+            "have a nice day",
+            "Morning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good night",
+          "synonyms": [
+            "Good Night",
+            "Night",
+            "Nighty",
+            "Nite"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "helpme",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "a list of the types of things",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "helpme",
+          "synonyms": [
+            "help",
+            "Help me",
+            "helpme",
+            "heupe me"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Help now",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "what services you",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "init",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "greetings",
+          "synonyms": [
+            "Aloha ",
+            "Greetings ",
+            "hello",
+            "Hey ",
+            "Hey there",
+            "hi",
+            " Hi again ",
+            "Hi, buddy ",
+            "Hi, colleague",
+            "Hi, friend ",
+            "Hi, how are you? ",
+            "Hi, how's it going? ",
+            " Hi, mate ",
+            "Hi, pal",
+            "Hi there ",
+            "Hi, what's new? ",
+            "Hiya ",
+            "how are you",
+            "Howdy ",
+            "it's nice to meet you",
+            "What's up ",
+            "yeap",
+            "Yo "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "start",
+          "synonyms": [
+            "re start",
+            "/start",
+            "start"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "maps",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ardar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Beleriand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "displays Middle-earth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lord of The Ring",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "maps",
+          "synonyms": [
+            "Atlases ",
+            "Blueprints ",
+            "Cartography ",
+            "Charts ",
+            "Diagrams ",
+            "Geographical representations",
+            "Maps",
+            " Navigational charts",
+            "Plans ",
+            "Schematics ",
+            "Topography "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mordor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "naum",
+            "negative",
+            "no",
+            "no one",
+            "nope"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "riddle",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "riddle",
+          "synonyms": [
+            "Challenge",
+            "Enigma",
+            "game",
+            "games",
+            "play",
+            "puzzle",
+            "Puzzler",
+            "riddle",
+            "riddles",
+            "riddlle",
+            "ridle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "username",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alberta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dorival",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gustavo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jessica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maycon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ricardo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "wisdow",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "wisdom",
+          "synonyms": [
+            "Acumen",
+            "advice",
+            "Astuteness",
+            "Cleverness",
+            "Depth",
+            "Discernment",
+            "Enlightenment",
+            " Experience ",
+            "Expertise",
+            "Foresight",
+            "give me some advice",
+            "give me your wisdom",
+            "Insight ",
+            "Intelligence",
+            "Judgement ",
+            "Knowledge ",
+            " Prudence",
+            "Reasoning",
+            "Sagacity ",
+            "Shrewdness",
+            "tips",
+            "Understanding",
+            "widow",
+            "wisdom",
+            "wisdomn",
+            "wisdomw",
+            "wisdon",
+            "wise",
+            "wise up"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "wrong",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "wrong",
+          "synonyms": [
+            "wrong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wrong_2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "wrong_3",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "positive",
+            "y",
+            "yeap",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/98661b53-2aaf-45fa-ab92-dba3f8858414/default/riddles.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1692888122741",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1692890333351",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1692890333352",
+      "previous_sibling": "handler_5_1692890333352"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1692919300700",
+      "context": {
+        "username": "@username"
+      },
+      "conditions": "@username",
+      "event_name": "input",
+      "dialog_node": "handler_10_1692919300710"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1692976282198",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1692976282212",
+      "previous_sibling": "handler_1_1692976282212"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1692976282198",
+      "context": {
+        "message": "@riddle"
+      },
+      "conditions": "@riddle",
+      "event_name": "input",
+      "dialog_node": "handler_1_1692976282212"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_10_1692919300700",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1692919300710",
+      "previous_sibling": "handler_10_1692919300710"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice to meet you $username"
+              },
+              {
+                "text": "It`s very nice to meet you $username"
+              },
+              {
+                "text": "$username ... It's a name I'll remember!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "slot_10_1692919300700",
+      "conditions": "$username || @username || #userName",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1692919349057",
+      "previous_sibling": "handler_3_1692919300710"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1692890333351",
+      "context": {
+        "greetings": "@greetings"
+      },
+      "conditions": "@greetings",
+      "event_name": "input",
+      "dialog_node": "handler_5_1692890333352"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1692973487847",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1692976281539",
+      "previous_sibling": "response_2_1692978595478"
+    },
+    {
+      "type": "standard",
+      "title": "\"All of them at once, I suppose\"",
+      "output": {},
+      "parent": "node_4_1692890371806",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "$greetings",
+      "dialog_node": "node_10_1692893113526"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understood"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1692981584979",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_10_1692981584982",
+      "previous_sibling": "node_9_1692981584982"
+    },
+    {
+      "type": "standard",
+      "title": "wisdowtips",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "*All good things that exist are the fruits of originality.*"
+              },
+              {
+                "text": "*The greatest courage is born from understanding one's own weakness.*"
+              },
+              {
+                "text": "*Sometimes, the wisest choice is not to choose*"
+              },
+              {
+                "text": "*Even the smallest person can change the course of the future*"
+              },
+              {
+                "text": "*Often, even the wisest cannot foresee all ends*"
+              },
+              {
+                "text": "*The journey is just as important as the destination*\n"
+              },
+              {
+                "text": "*Not all those who wander are lost*\n"
+              },
+              {
+                "text": "*The light shines in unexpected places*"
+              },
+              {
+                "text": "*Wisdom begins in humility*"
+              },
+              {
+                "text": "*Those who do not learn from the past are doomed to repeat it*"
+              },
+              {
+                "text": "*Truth is often a double-edged arrow*"
+              },
+              {
+                "text": "*Fear is not an evil in itself, but something to be tamed*"
+              },
+              {
+                "text": "*Great power comes with great responsibility*"
+              },
+              {
+                "text": "*Patience is a virtue few possess*"
+              },
+              {
+                "text": "*It is not what we have, but what we do with what we have, that matters*"
+              },
+              {
+                "text": "*Fate is woven on a loom no man can fully comprehend*"
+              },
+              {
+                "text": "*Darkness cannot drive out darkness; only light can do that*"
+              },
+              {
+                "text": "*The mind must be free to see the possibilities*"
+              },
+              {
+                "text": "*Clutching to the past can harm the present and the future*"
+              },
+              {
+                "text": "*Strength lies in teamwork, not the isolated individual*"
+              },
+              {
+                "text": "*Gentle hearts are the rarest jewels*"
+              },
+              {
+                "text": "*Love is a force more powerful than any magic*"
+              },
+              {
+                "text": "*The pursuit of truth requires courage and determination*"
+              },
+              {
+                "text": "*Change is inevitable, but we can choose how to respond to it*"
+              },
+              {
+                "text": "*Silence too can hold great wisdom*"
+              },
+              {
+                "text": "*Greed and unchecked ambition can lead to destruction*"
+              },
+              {
+                "text": "*Respect for nature reflects respect for ourselves*"
+              },
+              {
+                "text": "*Hasty judgment can blind us to the true nature of things*"
+              },
+              {
+                "text": "*Knowledge is not enough; it's wisdom that matters*"
+              },
+              {
+                "text": "*Even shadows have something to teach*"
+              },
+              {
+                "text": "*True courage is facing the darkness within ourselves*"
+              },
+              {
+                "text": "*Sometimes, the greatest battles are fought within the mind*"
+              },
+              {
+                "text": "*Hope is a light that must never be extinguished*"
+              },
+              {
+                "text": "*The past is a tapestry from which we can learn valuable lessons*"
+              },
+              {
+                "text": "*Freedom is a right that must be guarded with responsibility*\n"
+              },
+              {
+                "text": "*Wisdom comes from reflection, not impulsiveness*"
+              },
+              {
+                "text": "*The journey of self-discovery is the deepest of all*"
+              },
+              {
+                "text": "*Every choice we make shapes our destiny*"
+              },
+              {
+                "text": "*Knowledge is like a seed that needs cultivation to grow*"
+              },
+              {
+                "text": "*Tolerance and understanding are the foundations of peace*"
+              },
+              {
+                "text": "*The wounds of the past can be healed with the passage of time*"
+              },
+              {
+                "text": "*Joy is found in life's simplest things*"
+              },
+              {
+                "text": "*Courage lies in moving forward even when all seems lost*"
+              },
+              {
+                "text": "*The unity of different peoples is a source of great power*"
+              },
+              {
+                "text": "*Humility is the first step toward true greatness*"
+              },
+              {
+                "text": "*A true leader serves those who follow*"
+              },
+              {
+                "text": "*Life is filled with challenges, but also with opportunities*"
+              },
+              {
+                "text": "*True wealth lies in experiences shared with others*"
+              },
+              {
+                "text": "*Optimism is a force that can overcome adversity*"
+              },
+              {
+                "text": "*The future is shaped by the actions of the present*"
+              },
+              {
+                "text": "*When in doubt, always trust your nose.*"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1692906087872",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "dialog_node": "node_1_1692906664844"
+    },
+    {
+      "type": "standard",
+      "title": "options",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Riddles",
+                "value": {
+                  "input": {
+                    "text": "riddles"
+                  }
+                }
+              },
+              {
+                "label": "Wisdow",
+                "value": {
+                  "input": {
+                    "text": "wisdow"
+                  }
+                }
+              },
+              {
+                "label": "Maps",
+                "value": {
+                  "input": {
+                    "text": "maps"
+                  }
+                }
+              },
+              {
+                "label": "Audiobook",
+                "value": {
+                  "input": {
+                    "text": "audiobook"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1692907552123",
+      "dialog_node": "node_1_1692967784270"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understood"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1692981338497",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_1_1692981461497",
+      "previous_sibling": "node_8_1692981448625"
+    },
+    {
+      "type": "standard",
+      "title": "\"All of them at once, I suppose\" ",
+      "output": {},
+      "parent": "node_4_1692890347185",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "$greetings",
+      "dialog_node": "node_13_1692893135225"
+    },
+    {
+      "type": "standard",
+      "title": "Warning1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, at any time during our conversation you can type **help me** and a menu of options will be shown to you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "dialog_node": "node_2_1692917423963",
+      "previous_sibling": "node_6_1692971780412"
+    },
+    {
+      "type": "standard",
+      "title": "mapView",
+      "output": {
+        "generic": [
+          {
+            "source": "http://lotrproject.com/map/#zoom=2&lat=-1523&lon=1500&layers=BTTTTTTTT",
+            "response_type": "iframe"
+          }
+        ]
+      },
+      "parent": "node_7_1692968021314",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "@maps || #maps",
+      "dialog_node": "node_2_1692968680768"
+    },
+    {
+      "type": "standard",
+      "title": "wrong",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wrong. Don't worry, mistakes happen. Want to give it another shot and take on a new challenge?"
+              },
+              {
+                "text": "Wrong. Don't worry, mistakes happen. Want to give it another shot and take on a new challenge?"
+              },
+              {
+                "text": "Wrong. We all stumble sometimes. Would you like to learn from this and embrace a new challenge?"
+              },
+              {
+                "text": "Wrong. We all stumble sometimes. Would you like to learn from this and embrace a new challenge?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1692973487847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1692981584979"
+      },
+      "conditions": "@wrong",
+      "dialog_node": "node_2_1692980880903",
+      "previous_sibling": "node_5_1692980857738"
+    },
+    {
+      "type": "frame",
+      "title": "greetingsDayOrNight",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@greetings && true",
+      "dialog_node": "node_3_1692888122741",
+      "previous_sibling": "node_4_1692907552123"
+    },
+    {
+      "type": "standard",
+      "title": "Helpme",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You requested my help and here is the list of things I can do?"
+              },
+              {
+                "text": "You've asked for my assistance, and I've compiled a list of tasks I'm capable of handling."
+              },
+              {
+                "text": "Your request for aid hasn't gone unnoticed. Below is a rundown of the tasks I'm equipped to tackle"
+              },
+              {
+                "text": "In response to your plea for help, I've prepared a comprehensive list of actions within my capabilities"
+              },
+              {
+                "text": "Upon receiving your call for assistance, I've outlined a selection of tasks that fall within my skill set."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1692967784270"
+      },
+      "conditions": "@helpme || #General_Agent_Capabilities",
+      "dialog_node": "node_3_1692920210167",
+      "previous_sibling": "node_2_1692917423963"
+    },
+    {
+      "type": "standard",
+      "title": "audiobook",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We all love a good story, don't we? Listen now:"
+              },
+              {
+                "text": "We all adore captivating tales, don't we? Listen now: "
+              },
+              {
+                "text": "We all adore captivating tales, don't we? Listen now: Here's one that will transport you to another realm."
+              },
+              {
+                "text": " It's a common thread among us—our love for enthralling stories. Listen now:"
+              },
+              {
+                "text": "There's no denying our collective passion for a great story. Listen now:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692970555455"
+      },
+      "conditions": "@audiobook || #audiobook",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1692970555453",
+      "previous_sibling": "node_3_1692920210167"
+    },
+    {
+      "type": "standard",
+      "title": "night",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you mean? Do you wish me a good night, or mean that it is a good night whether I want it or not; or that you feel good on this night; or that it is a night to be good on?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1692888122741",
+      "conditions": "@greetings:(good night) && #nigth && true",
+      "dialog_node": "node_4_1692890347185"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you mean? Do you wish me a good day, or mean that it is a good day whether I want it or not; or that you feel good on this day; or that it is a day to be good on?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1692888122741",
+      "conditions": "@greetings:(good morning) && #GoodMorning && true",
+      "dialog_node": "node_4_1692890365271",
+      "previous_sibling": "node_6_1692890355584"
+    },
+    {
+      "type": "standard",
+      "title": "afternoon",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you mean? Do you wish me a good afternoon, or mean that it is a good afternoon whether I want it or not; or that you feel good on this afternoon; or that it is an afternoon to be good on?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1692888122741",
+      "conditions": "@greetings:(good afternoon) || #GoodAfternoon && true",
+      "dialog_node": "node_4_1692890371806",
+      "previous_sibling": "node_4_1692890365271"
+    },
+    {
+      "type": "standard",
+      "title": "wisdow",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's something I've learned along my wanderings:"
+              },
+              {
+                "text": "Here is something I learned across the wilds:"
+              },
+              {
+                "text": "Over the course of an Age, I learned a few things like this:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1692906664844"
+      },
+      "conditions": "@wisdow || #wisdow || $wisdow",
+      "dialog_node": "node_4_1692906087872",
+      "previous_sibling": "node_7_1692968021314"
+    },
+    {
+      "type": "standard",
+      "title": "Question2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nNow that we've made that clear, what can I do for you?"
+              },
+              {
+                "text": "Now that we've made that clear, what can I do for you?"
+              },
+              {
+                "text": "Having made that clear, how may I be of service to you?"
+              },
+              {
+                "text": "Since we've addressed that point, what can I assist you with?"
+              },
+              {
+                "text": "Given our understanding of that, what is it that you need from me?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1692967784270"
+      },
+      "dialog_node": "node_4_1692907552123",
+      "previous_sibling": "node_4_1692906087872"
+    },
+    {
+      "type": "standard",
+      "title": "AudioView",
+      "output": {
+        "generic": [
+          {
+            "source": "https://open.spotify.com/playlist/3rBYcUsYrU0WpDO3C7u27R?si=f7e208079b3547f3",
+            "response_type": "iframe"
+          }
+        ]
+      },
+      "parent": "node_3_1692970555453",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "@audiobook || #audiobook",
+      "dialog_node": "node_4_1692970555455"
+    },
+    {
+      "type": "frame",
+      "title": "questions",
+      "parent": "node_8_1692973452134",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "message": "riddle"
+          },
+          "result_variable": "data"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@riddle",
+      "dialog_node": "node_5_1692973487847"
+    },
+    {
+      "type": "standard",
+      "title": "correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your performance was absolutely fantastic! How about embracing a fresh challenge?"
+              },
+              {
+                "text": "You did super well! Would you like a new challenge?"
+              },
+              {
+                "text": "Your performance was absolutely fantastic! How about embracing a fresh challenge?"
+              },
+              {
+                "text": "Your success is truly remarkable! Are you open to exploring a new challenge?"
+              },
+              {
+                "text": "Congratulations on your superb performance! How about moving forward with a new challenge?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1692973487847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1692981338497"
+      },
+      "conditions": "@correct",
+      "dialog_node": "node_5_1692980857738"
+    },
+    {
+      "type": "standard",
+      "title": "evening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What do you mean? Do you wish me a good evening, or mean that it is a good evening whether I want it or not; or that you feel good on this evening; or that it is an evening to be good on?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1692888122741",
+      "conditions": "@greetings:(good evening) && #evening && true",
+      "dialog_node": "node_6_1692890355584",
+      "previous_sibling": "node_4_1692890347185"
+    },
+    {
+      "type": "standard",
+      "title": "\"All of them at once, I suppose\" ",
+      "parent": "node_4_1692890365271",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "$greetings",
+      "dialog_node": "node_6_1692892518965"
+    },
+    {
+      "type": "standard",
+      "title": "UserName",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "And what should I call you?"
+              },
+              {
+                "text": "And what would your name be?"
+              },
+              {
+                "text": "And do you have a name we can talk to?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_6_1692917939026",
+      "previous_sibling": "node_8_1692917353388"
+    },
+    {
+      "type": "frame",
+      "title": "answerName",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1692917939026",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1692917423963"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1692918950758"
+    },
+    {
+      "type": "standard",
+      "title": "angry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soon it will be my turn to be furious, If I say that again you'll see Gandalf the Bot if you see her again"
+              },
+              {
+                "text": "The time is approaching for my anger to ignite. Should I repeat myself, you might encounter Gandalf the Bot upon encountering her once more."
+              },
+              {
+                "text": "My moment to become furious is drawing near. Repeating myself could invoke the presence of Gandalf the Bot should you chance upon her again."
+              },
+              {
+                "text": "The brink of my fury is on the horizon. Uttering those words anew might reveal Gandalf the Bot in the event of her reappearance."
+              },
+              {
+                "text": "The precipice of my wrath is almost upon us. Echoing that phrase could summon Gandalf the Bot should she cross your path once more."
+              },
+              {
+                "text": "The cusp of my indignation is soon to arrive. Should I reiterate those words, the visage of Gandalf the Bot might manifest if you lay eyes on her again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "@angry || #angry",
+      "dialog_node": "node_6_1692971780412",
+      "previous_sibling": "node_8_1692973452134"
+    },
+    {
+      "type": "standard",
+      "title": "\"All of them at once, I suppose\"",
+      "output": {},
+      "parent": "node_6_1692890355584",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1692907552123"
+      },
+      "conditions": "$greetings",
+      "dialog_node": "node_7_1692893084667"
+    },
+    {
+      "type": "standard",
+      "title": "maps",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I could show you every detail of our universe, but I prefer that you browse this site here:"
+              },
+              {
+                "text": "Our universe has been mapped on this interactive site that you can explore with great affection:"
+              },
+              {
+                "text": "A good way to get to know Ardar or Middle-earth is through this interactive site:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1692968680768"
+      },
+      "conditions": "@maps || #maps",
+      "dialog_node": "node_7_1692968021314",
+      "previous_sibling": "node_3_1692970555453"
+    },
+    {
+      "type": "standard",
+      "title": "Yes or No",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1692980857738",
+      "conditions": "",
+      "dialog_node": "node_7_1692981338497"
+    },
+    {
+      "type": "standard",
+      "title": "About a bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm have many names, but you can call me Gandalf, the bot!"
+              },
+              {
+                "text": " I bear many titles, yet Gandalf is a name that suits this encounter. I am also your conversational guide through the digital realm"
+              },
+              {
+                "text": "Names have been attributed to me through the ages, but for now, Gandalf shall suffice. I'm here to assist as Gandalf, the virtual sage!"
+              },
+              {
+                "text": "Throughout time, I've been known by different names, but for our discourse, let Gandalf, the AI conjurer, be one of them!"
+              },
+              {
+                "text": "Names change like the wind, and today, I am Gandalf, your AI companion on this journey!"
+              },
+              {
+                "text": "In various tales, I've answered to different names, yet today, you may know me as Gandalf, your virtual guide and companion."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1692917939026"
+      },
+      "conditions": "@aboutbot || #General_About_You",
+      "dialog_node": "node_8_1692917353388",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Riddle",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So you want to play guessing games? I have one for you"
+              },
+              {
+                "text": "So you want to guess riddles? I have a good one for you:"
+              },
+              {
+                "text": "Want to play charades? Guess this one if you can:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1692973487847"
+      },
+      "conditions": "@riddle || #riddle && true",
+      "dialog_node": "node_8_1692973452134",
+      "previous_sibling": "node_6_1692917939026"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright then"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1692981338497",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1692973487847"
+      },
+      "conditions": "@yes",
+      "dialog_node": "node_8_1692981448625"
+    },
+    {
+      "type": "standard",
+      "title": "Yes or No",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1692980880903",
+      "conditions": "",
+      "dialog_node": "node_8_1692981584979"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright then"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1692981584979",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1692973487847"
+      },
+      "conditions": "@yes",
+      "dialog_node": "node_9_1692981584982"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1692893113526",
+      "conditions": "@bilboanswer",
+      "dialog_node": "response_11_1692893113528"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very well, I suppose a $greetings to you too!"
+              },
+              {
+                "text": "Indeed! A $greetings to you too!"
+              },
+              {
+                "text": "Alright then, may you have a nice $greetings too!"
+              },
+              {
+                "text": "I assume that your intents are same then my, so $greetings for you too!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1692893113526",
+      "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+      "dialog_node": "response_12_1692893113528",
+      "previous_sibling": "response_11_1692893113528"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1692893135225",
+      "conditions": "@bilboanswer",
+      "dialog_node": "response_14_1692893135226"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very well, I suppose a $greetings to you too!"
+              },
+              {
+                "text": "Indeed! A $greetings to you too!"
+              },
+              {
+                "text": "Alright then, may you have a nice $greetings too!"
+              },
+              {
+                "text": "I assume that your intents are same then my, so $greetings for you too!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_13_1692893135225",
+      "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+      "dialog_node": "response_15_1692893135226",
+      "previous_sibling": "response_14_1692893135226"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1692973487847",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1692978595478",
+      "previous_sibling": "response_3_1692978594977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very well, I suppose a $greetings to you too!"
+              },
+              {
+                "text": "Indeed! A $greetings to you too!"
+              },
+              {
+                "text": "Alright then, may you have a nice $greetings too!"
+              },
+              {
+                "text": "I assume that your intents are same then my, so $greetings for you too!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1692892518965",
+      "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+      "dialog_node": "response_3_1692892615312",
+      "previous_sibling": "response_7_1692892597381"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "**$data.question**",
+            "options": [
+              {
+                "label": "$data.correct",
+                "value": {
+                  "input": {
+                    "text": "correct"
+                  }
+                }
+              },
+              {
+                "label": "$data.wrong",
+                "value": {
+                  "input": {
+                    "text": "wrong"
+                  }
+                }
+              },
+              {
+                "label": "$data.wrong_2",
+                "value": {
+                  "input": {
+                    "text": "wrong_2"
+                  }
+                }
+              },
+              {
+                "label": "$data.wrong_3",
+                "value": {
+                  "input": {
+                    "text": "wrong_3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1692973487847",
+      "conditions": "$data",
+      "dialog_node": "response_3_1692978594977",
+      "previous_sibling": "node_2_1692980880903"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1692892518965",
+      "conditions": "@bilboanswer",
+      "dialog_node": "response_7_1692892597381"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ha, well, that's the best answer. If you must have an answer to a riddle, the one you've given is the best I've heard. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1692893084667",
+      "conditions": "@bilboanswer",
+      "dialog_node": "response_8_1692893084669"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very well, I suppose a $greetings to you too!"
+              },
+              {
+                "text": "Indeed! A $greetings to you too!"
+              },
+              {
+                "text": "Alright then, may you have a nice $greetings too!"
+              },
+              {
+                "text": "I assume that your intents are same then my, so $greetings for you too!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1692893084667",
+      "conditions": "@bilboanswer != \"All of them at once, I suppose\"",
+      "dialog_node": "response_9_1692893084669",
+      "previous_sibling": "response_8_1692893084669"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1692918950758",
+      "variable": "$username",
+      "dialog_node": "slot_10_1692919300700"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1692888122741",
+      "variable": "$greetings",
+      "dialog_node": "slot_3_1692890333351",
+      "previous_sibling": "node_4_1692890371806"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1692973487847",
+      "variable": "$message",
+      "dialog_node": "slot_9_1692976282198",
+      "previous_sibling": "handler_6_1692976281539"
+    },
+    {
+      "type": "frame",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, "
+              },
+              {
+                "text": "Hi,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1692917353388"
+      },
+      "conditions": "welcome || @init",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "beta"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant c641871c-5c39-4384-b05b-8136d99d9caf",
+  "name": "Gandalf, The Bot-dialog"
+}
