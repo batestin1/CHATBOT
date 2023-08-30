@@ -20,7 +20,7 @@ With this principle, we structured NLU's intelligence to understand its message 
 
 <h3>In this Repository</h3>
 
-<p>You will find 3 folders containing Entities, Content and Skill files </p>
+<p>You will find 5 folders containing Entities, Content and Skill files </p>
 
 1. Entities -> Contains files referring to entities that permeate the chatbot. They are in CSV format.
 2. Content -> Contains the dialog flows proposed by the chatbot. It is in JSON format.

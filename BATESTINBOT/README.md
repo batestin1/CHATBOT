@@ -18,17 +18,17 @@ The chatbot is self-responsive and answers questions directed to the Maycon pers
 
 <h3>In this Repository</h3>
 
-<p>You will find 3 folders containing Entities, Content and Skill files </p>
+<p>You will find 4 folders containing Entities, Content and Skill files </p>
 
-app
-5. Strealimt -> Contains the project as streamlit python for app device.
-6. Train_files -> files to train the model project.
+1. Entities -> Contains files referring to entities that permeate the chatbot. They are in CSV format.
+2. Content -> Contains the dialog flows proposed by the chatbot. It is in JSON format.
+3. Skill -> Contains the project as a whole, except its identification keys and accesses. It is in JSON format.
+4. Intents ->  Contains files referring to intents that permeate the chatbot. They are in CSV format
 
 
 <h3>How to Run</h3>
 
-1. Have a telegram account
-2. Add account [BATESTINBOT](https://batestinbot.streamlit.app/)
+1. Click here to interact  [BATESTINBOT](https://batestin1.github.io/linkedin/)
 
 
 
