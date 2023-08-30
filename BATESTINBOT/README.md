@@ -13,7 +13,7 @@
 
 <h3>About the project</h3>
 
-<p>The project is a chatbot developed by <b> Watson Assistant </b> and enhanced in <b> TELEGRAM BOT </b> using <b> Azure Bot Framework.</b> All services are connected between itself running on the LITE plan and easy to maintain.
+<p>The project is a chatbot developed by <b> Watson Assistant </b>.
 The chatbot is self-responsive and answers questions directed to the Maycon persona. The intention is to help recruiters or any user to obtain information about Maycon in a quick and practical way..</p>
 
 <h3>In this Repository</h3>
