@@ -19,7 +19,7 @@ You can chat normally with chabot, when it asks for the title of the movie, it w
 
 <h3>In this Repository</h3>
 
-<p>You will find 3 folders containing Entities, Content and Skill files </p>
+<p>You will find 4 folders containing Entities, Content and Skill files </p>
 
 1. Entities -> Contains files referring to entities that permeate the chatbot. They are in CSV format.
 2. Content -> Contains the dialog flows proposed by the chatbot. It is in JSON format.
